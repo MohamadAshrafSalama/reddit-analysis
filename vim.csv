@@ -1,0 +1,3027 @@
+id,ups,upvote_ratio,num_comments,score,post_length_chars,post_length_words,created_utc,selftext,kind
+18ilb65,7,1.0,8,7,250,34,2023-12-14T23:01:17Z,"I was watching the following vimtricks video. How did he align the vertical bars in the markdown table? He is just typing `&lt;c-v&gt;GA |` and the table cell boundary markers are aligned automatically.
+
+https://vimtricks.com/p/undo-from-insert-mode/",t3
+18ih6db,12,0.81,5,12,583,59,2023-12-14T19:58:59Z,"Ideal for occasional or emergency use:
+
+https://github.com/skywind3000/zvi
+
+size:
+
+    E:\Github\Tools\zvi\zvi&gt;dir
+     Volume in drive E has no label.
+     Volume Serial Number is 5C99-F630
+    
+     Directory of E:\Github\Tools\zvi\zvi
+    
+    2023/12/15  03:07    &lt;DIR&gt;          .
+    2023/12/15  03:07    &lt;DIR&gt;          ..
+    2023/12/15  00:37            62,990 zvi.exe
+                   1 File(s)         62,990 bytes
+                   2 Dir(s)  155,434,463,232 bytes free
+
+Ideal for occasional or emergency use, download and keep it in your rescue USB-stick.",t3
+18i7d93,5,0.79,9,5,909,114,2023-12-14T12:15:29Z,"I am using this to change the background of the line under the cursor:
+
+    :set cursorline
+    :highlight CursorLine cterm=NONE ctermbg=235
+
+This works as expected. I also changed the highlighting of TODOs with this:
+
+    :highlight Todo ctermbg=yellow ctermfg=black
+
+When I now change my cursor to the line with the TODO, the background of the TODO will also be changed, while I want it to remain yellow. It now looks like this:
+
+https://preview.redd.it/han0kky4596c1.png?width=783&amp;format=png&amp;auto=webp&amp;s=aff53e2f70618a048e6892d796c2eb15f10ec384
+
+While I want it to look like this:
+
+https://preview.redd.it/2kf6h3f8596c1.png?width=783&amp;format=png&amp;auto=webp&amp;s=019149eff072e11f37b84102dffa97785312cab1
+
+I got this correct picture by searching for TODO (I have hlsearch enabled), making me think that I am just missing something. What are some things I could try to get it looking right?",t3
+18i5des,0,0.15,13,0,387,77,2023-12-14T10:03:05Z,"Man I just downloaded 3 C.O.C moded apps and all of them consume 100mb per min! Like, DAMN! It wasted like a 1 and half of my data. Ughhh! I was sooo passed off. I mean 1.5 gb of my mobile data was lost due to this! 😆. So I was wondering Is there any legit private servers out there for clash of clans other than STUPID STEALING Nulls clash! Please comment if you guys Know something🙏🙏🥰.",t3
+18hm874,2,0.63,20,2,500,92,2023-12-13T17:34:25Z,"Edit: solved by u/Yoolainna
+
+I want to make and IP address list  and import it on my mikrotik router
+I need to add this line
+add list=gr-ips address=
+
+which is in the file in a line so I can copy it
+and the other contents of the file are for example
+2.84.0.0/16
+94.82.0.0/23
+and so on 
+so what I want to do on all of the lines is:
+add list=gr-ips address=2.84.0.0/16
+add list=gr-ips address=94.82.0.0/23
+
+the file has 420 lines 1 line is the ""add list=gr-ips address="" the others are the IP address
+
+",t3
+18hisfd,0,0.27,3,0,0,0,2023-12-13T15:04:47Z,,t3
+18hga21,24,1.0,0,24,246,38,2023-12-13T13:00:29Z,"Ciao guys,
+
+two former colleagues interviewed me, and we wanted to share the video with you, if you are interested :)
+
+The video is in italian, but you should be able to add english subtitles ;)
+Enjoy!
+
+https://www.youtube.com/watch?v=3NmK9ktwLUU",t3
+18hddoc,3,1.0,7,3,686,121,2023-12-13T09:53:05Z,"I've got a bunch of files that I'm converting from one documentation system to another. One of the things that I have to do is convert every `[linkname](/path/file)` to `&lt;Link href=""path/file"" alt=""linkname""&gt; linkname &lt;/a&gt;`. 
+
+I've been going through and doing this manually, as I go trying to come up with more efficient ways to automate this process. So, I'm not asking for help here (by the time enough of you reply I will hopefully have shipped this thing), but I want to see what methods you folks come up with, as a way to revel a little in the power that is vim. 
+
+(I'm using neovim, personally, but I do not limit the terms of the engagement to that). 
+
+Whatcha got?",t3
+18gqm41,59,0.9,30,59,123,21,2023-12-12T17:01:01Z,Is there a comitee of individuals leading the development? Have they released a plan as to what is happening going forward?,t3
+18gmgiu,8,0.67,28,8,417,74,2023-12-12T13:58:00Z,"I don't know what to think of vim9script. It looks a bit like JavaScript.
+
+It also doesn't feel easy having to learn vim9script after legacy vim. I also noticed that many vim plugins are still not updated to vim9script.
+
+I do not understand why they did not adapt vim9script more to Python, or better yet, why isn't it python code supplemented with some text editor specific vim code.
+
+What are your thoughts on this?",t3
+18g4ed7,2,0.75,3,2,10,2,2023-12-11T21:13:43Z,The title.,t3
+18fzvbc,2,0.75,7,2,140,19,2023-12-11T17:36:04Z,"NERDTree opens files in new window or same window randomly. Does anyone have any idea why that happens?
+
+https://i.redd.it/q0ufp5auaq5c1.gif",t3
+18fz1am,13,0.74,1,13,1799,323,2023-12-11T16:53:13Z,"Hello, folks, just an appreciation post to vim, like most of us, when you start programming the IDE is a crucial part to make everything, this journey has been pretty fun. I've started to write technical papers using latex in vscode but after a long time, I've started a journey into the terminal software, stuff like nnn, and went into neovim as a complete substitution for vscode, started with coc and few plugins like nerdtree. But I've faced the first issue... how to exit, move, etc xD, after all of that, cannot escape from the vim keybinds and also I've made the question: What makes the difference between neovim and vim? Started to use vim with a minimal vimrc.
+
+&amp;#x200B;
+
+I've started the vanilla vim usage as my main text editor in 2022, started to migrate from ycm to mucomplete, jedi and airline, discovering ale and the lsp support in this side of the river and trying options to optimize speed, discovering after a long time stuff like sessions, marks, macros and simply amazes me what vanilla vim can do, it is not a rant to other editors, is my experience and the travel to discover the full power of a software like this, in this year I've started to try to add more addons to vim-orgmode, writing a nerdfont glyph picker using fzf and still playing with the completion, thanks to Bram and all the people who still works in the most powerful editor in the market without all the fancy stuff, just the things that you need to make you work or have fun with, happy vimming to all, and happy holidays to everyone! 
+
+PS: Remember, if the things you have doesn't interfere with performance or if that makes a slowdown but you are okay, it's correct to have it, a vimrc is a very personal setting.
+
+&amp;#x200B;
+
+PS2: Thanks to all the plugin devs, people like lervag or junengunn :)",t3
+18fj8zy,39,0.99,16,39,1971,320,2023-12-11T01:45:45Z,"Recently, I have found myself looking through the helpdocs a lot more for some more ""obscure""/random tidbits, along with finding some useful stuff which I don't currently utilize.  As such, I thought that it might be helpful to share some of the things I find every week!  Feel free to also share some of your own knowledge in the comments.
+
+---
+
+# Tidbit #1
+
+### To kick this first one off, I will give a bit of a weirder/potentially surprising tidbit:
+
+Commands which involve a pattern and are typically surrounded by slashes can instead be surrounded by any character (other than numbers, letters, \\, "", and |).  This allows you to use `/` within your patterns without escaping, etc.
+
+For example, these are all equivalent:
+
+`:%s/a/b`
+
+`:%s=a=b`
+
+`:%s+a+b`
+
+(likewise with `:g` or `:v`)
+
+For more information, look into `:h pattern-delimiter`.
+
+---
+
+# Tidbit #2
+
+### Since the one above might be less useful, I thought that I would include some somewhat useful mappings vim has related to spellchecking:
+
+- `zg` marks the word under the cursor as a valid word globally (uses spellfile; persists).
+- `zw` marks the word under the cursor as an invalid word globally (uses spellfile; persists).
+- `zG` and `zW` are the same as their counterparts, except it is local/internal (uses internal wordlist; it stays around for all open buffers until exiting vim).
+
+For more information, look into `:h zg, zw, zG, zW, 'spellfile', internal-wordlist`.
+
+By default, the global ones seem to store into `~/vimfiles/spell/en.utf-8.add`, though this might vary for you; when adding a good/bad word globally, it will tell you the path of this file at the bottom by where you enter commands.
+
+---
+
+*I have quite the collection of other more useful stuff, but it is currently scattered about in my notes, so I aim to consolidate all my notes into one spot for a, hopefully, ""more useful"" week 2.*
+
+---
+
+[Next (Week #2)](https://www.reddit.com/r/vim/comments/18kvpdo/weekly_tipstricks_2/)",t3
+18fhswj,15,0.94,13,15,1689,295,2023-12-11T00:31:04Z,"For a long time I've assumed there is a fairly simple trick using substitute to cut linebreaks, and hence join lines. In particular I've always wanted to be able to quickly delete blank lines, in various situations. Turns out, it can't be done, at least as far as I know. Given that vim's subsitute (and GNU sed, and relevant stream editors) operate in a linewise fashion, there is *in principle* no way to substiute line breaks.
+
+So, what's a monkey to do?
+
+Well, in the vim user manual, `:help 25.4` there's a really handy command which explains how to truncate the text in your file onto a single line, for exporting to Word, or some other word processor.
+
+`:g/./,/^$/join` - searches the file globally for any *non-blank* line, and then joins them together, except for when there's a blank line (which now that I think about it is actually the opposite of what I was looking for, anyway).
+
+So, with a bit of playing around I figured out that I could do this:
+
+`{range},g/^$/,/^/join`
+
+What this does is from line `{range}`, to the cursor position, search 'globally' for all instances between a *blank* line, until the next start of line character, and join those together. So this:
+
+line
+
+line
+
+line
+
+Becomes this:
+
+line  
+line  
+line  
+
+Pretty cool I thought...
+
+So then, I want to make it quick. You can't really make it a mapping, because you want to be able to enter the range value at the start.
+
+So I put this in my vimrc:
+
+`cabbrev linedel g/^$/,/^/join`
+
+Now from the command line I can type in something like:
+
+`:3,linedel`, then hit spacebar and enter, to 'delete' all blank lines from line 3, to the cursor position.
+
+Hope other find this helpful.
+
+Merry Christmas everyone.",t3
+18fchvy,5,0.73,17,5,5424,632,2023-12-10T20:25:53Z,"Hi there,
+
+I have been using Vi motions for Pycharm for a few months, and overall I am liking it. I am in most cases almost as fast as I used to be with my mouse, in some cases a little faster, and overall I have found myself to start liking it more and more, however there is one particular instance where I just don't know how to make something efficient.
+
+Imagine I have a function consisting of 3 (or more) blocks of code, and I want to use a very similiar structure to create another function, with the only real difference being the variable names. Now let's say that in this case it isn't easily done to create some generic funnction that can take in the variable names, and thereby create distinct sets of code.
+
+Without using Vi motions, I would normally do the following:
+Copy paste my function and all the code in it, change the first block with the variable names manually (I have to type them out at least ones anyway), then I would in split view just double click one variable and ctrl+c, click the place where the old variable name was used in the function, ctrl+v, and do this for all 10 or so variables in under 30 seconds.
+
+With Vi motions, I need to (and I hope I can get some help with what to do exactly): jump to the variable, ciw each variable, then jump to the virst variable again, select the beginning, yank it, go to the line where the old variable appeared, viwp. 
+Now imagine I have to do it again, for another part where the old variable appeared, I then need to gv + y, move to the next variable  viw p. 
+
+Another thing would be to visually select the part where the 3 variables and use a substitution, however that requires me to type out the substitution/variable name, apply it. gv to reselect the area, click ""up"" to get the previous substituion command, change the variable names, and reapply. This too seems less fast than what I can do with a mouse. 
+
+How could I do this in a better way:
+
+some random code that feels applicable (please note for those that use Dash, i am aware that call backs are also a decorator): 
+I would want to change these variables and then change the rest of the function appropiately:
+ 
+    hidden_gas_output = html.Div(style = {'display': 'none'})
+    gas_usage = dbc.Input(value=input_data.C45)
+    gas_price = dbc.Input(value=input_data.C46)
+    EB_and_ODE_gas = dbc.Input(value=input_data.C48)
+    contract_fee_gas = dbc.Input(value=input_data.C49)
+    number_of_connections_gas = dbc.Input(value=input_data.C51)
+    percentage_used_for_heating_gas = dbc.Input(value=input_data.C52)
+    gas_price_total_per_m3 = dbc.Input(value=input_data.C53)
+    gasprice_scenario = dcc.Dropdown([""dynamic"", ""static""], ""dynamic"")
+    yearly_gas_price_increase = dbc.Input(value=input_data.C55)
+
+    app.callback(
+        ddep.Output(hidden_gas_output, 'children'),
+        [
+            ddep.Input(gas_usage, 'value'),
+            ddep.Input(gas_price, 'value'),
+            ddep.Input(contract_fee_gas, 'value'),
+            ddep.Input(EB_and_ODE_gas, 'value'),
+            ddep.Input(number_of_connections_gas, 'value'),
+            ddep.Input(percentage_used_for_heating_gas, 'value'),
+            ddep.Input(gas_price_total_per_m3, 'value'),
+            ddep.Input(gasprice_scenario, 'value'),
+            ddep.Input(yearly_gas_price_increase, 'value')
+        ],
+        prevent_initial_call=True)(update_output)
+
+Let's say that I change above functions to be about electricity and grab their inputs from a different place, I want to keep the names resembling what they are actually doing, and maybe I want to deal with electricity slightly differently than i want to deal with gas inputs, therefore I cannot create a generic function, how can I efficiently go about what I could do with mouse in a very short time?
+
+    def update_border_when_input_incorrect(gas_usage, gas_price, eb_and_ode, contract_fee, number_of_connections, percentage_used_for_heating,
+                      gas_price_total_per_m3,  yearly_gas_price_increase):
+        styles = [{}] * 8  # Initialize styles for three inputs
+        for i, value in enumerate([gas_usage, gas_price, eb_and_ode, contract_fee, number_of_connections, percentage_used_for_heating,
+                      gas_price_total_per_m3,  yearly_gas_price_increase]):
+            value = str(value)
+            if value is not None and not value.replace('.', '', 1).isdigit():
+                styles[i] = {'border': '2px solid red'}  # Apply red border if value is not numeric
+        return tuple(styles)
+
+    app.callback(
+        [
+            ddep.Output(gas_usage, 'style'),
+            ddep.Output(gas_price, 'style'),
+            ddep.Output(contract_fee_gas, 'style'),
+            ddep.Output(EB_and_ODE_gas, 'style'),
+            ddep.Output(number_of_connections_gas, 'style'),
+            ddep.Output(percentage_used_for_heating_gas, 'style'),
+            ddep.Output(gas_price_total_per_m3, 'style'),
+            ddep.Output(yearly_gas_price_increase, 'style')
+        ],
+        [
+            ddep.Input(gas_usage, 'value'),
+            ddep.Input(gas_price, 'value'),
+            ddep.Input(contract_fee_gas, 'value'),
+            ddep.Input(EB_and_ODE_gas, 'value'),
+            ddep.Input(number_of_connections_gas, 'value'),
+            ddep.Input(percentage_used_for_heating_gas, 'value'),
+            ddep.Input(gas_price_total_per_m3, 'value'),
+            ddep.Input(yearly_gas_price_increase, 'value')",t3
+18ekszp,1,1.0,1,1,248,41,2023-12-09T19:18:23Z,"Hey guys \^ \^, I want to set up the code highlighting like in vscode, where classes, structs and namespaces are highlighted.   
+for e.g.
+
+struct Tree...  
+Tree\* oak = new Tree;  
+std::cout &lt;&lt; \*tmp;
+
+Tree and std should be highlighted here.",t3
+18eilod,0,0.5,11,0,258,43,2023-12-09T17:35:18Z,"I often makes (on rush) the mistake of running `:MANPAGER`. Fine. How to revert it back? I tried :`set ft=python` but it didn't work well. For example, the `filetype` has been changed correctly, but the line numbers disappeared, the file is read-only, etc.  ",t3
+18eabm4,365,0.96,14,365,0,0,2023-12-09T09:59:08Z,,t3
+18e4bv7,2,0.75,7,2,866,159,2023-12-09T03:24:23Z,"I’ve been playing with using vim with vanilla omnifunc and tags, but I can’t get the default python omnifunc to work.
+
+So I’m trying to bite the bullet and setup LSP. In the past I have used LSP with neovim but I got a bad impression due to overly complex and undocumented configuration, now that I try to use it with vanilla vim it seems the problem was LSP itself because none of the documentation I have found shows an actual real full example for vim (not neovim) indicating which file to change and what to put in that file, only some code snippets that don’t seem to work.
+
+In particular I want to disable the warning of “line too long” because of the limit of 80 characters. I’ve tried to disable every single pylsp sub-plugin but nothing seems to work. I tried putting the settings in .vimrc as well as in the file that appears when typing :LspSettingsGlobal",t3
+18duz05,0,0.24,4,0,0,0,2023-12-08T19:49:37Z,,t3
+18diw38,14,0.99,11,14,907,100,2023-12-08T09:05:51Z,"```
+| Name      | Description                                                                                                                  |
+|-----------|------------------------------------------------------------------------------------------------------------------------------|
+| some_name | Very very very long description for some_name property that should be easy to read even in plain text form even in html form |
+```
+
+i want it to be, automatically or with a keybinding, formatted to:
+
+```
+| Name      | Description                    |
+|-----------|--------------------------------|
+| some_name | Very very very long description|
+|           | for some_name property that    |
+|           | should be easy to read even in |
+|           | plain text form even in html   |
+|           | form                           |
+|-----------|--------------------------------|
+```
+
+How can i go about it?",t3
+18divyo,0,0.33,5,0,344,62,2023-12-08T09:05:37Z,"Hi \^\^ I heard a lot about of vim and finally decided to throw my vscode away and start using vim!I configured everything I want, but I can't realise how to take the suggestions from coc plugin? When I'm selecting option and pressing return - nothing happens. How can I bind return to take selected suggestion, and shift+return to a new line? ",t3
+18d8ne4,3,1.0,7,3,458,94,2023-12-07T23:20:52Z,"This is no big deal really, and at some point in time I'll see if I can fix it myself if nobody has done so already.
+
+The problem is, is that the mouse doesn't work like in Kitty nor Vim, it is just a cursor being dragged around.
+
+So if I really want to copy something out of the terminal for now, I can do so
+by opening a new kitty window, no big deal, but I'd rather prefer to do so in the invoking shell, since there I have the current directory.
+
+Thanks.",t3
+18d489r,1,1.0,5,1,1606,223,2023-12-07T20:06:26Z,"I'm trying to parse the webpack - ts-loader output to the quickfix list. the output is composed of multiple lines, I reckon the tool merges the output of the three things involved in compiling (webpack, ts-loader, tsc). here are a few examples
+
+    ERROR in /data/code/websocket/src/index.ts
+    ./src/index.ts 3:23-26
+    [tsl] ERROR in /data/code/websocket/src/index.ts(3,24)
+          TS2304: Cannot find name 'int'.
+
+    ERROR in /data/code/websocket/src/index.ts
+    ./src/index.ts 9:0-1
+    [tsl] ERROR in /data/code/websocket/src/index.ts(9,1)
+          TS2304: Cannot find name 'S'.
+
+    ERROR in /data/code/websocket/src/index.ts
+    ./src/index.ts 9:2-5
+    [tsl] ERROR in /data/code/websocket/src/index.ts(9,3)
+          TS2304: Cannot find name 'foo'.
+
+I would like to parse the two lines starting with `[tsl]`. this is my latest attempt
+
+    set efm=%E[tsl]\ %tRROR\ in\ %f(%l\,%c)
+    set efm+=%Z%.%#TS%n:\ %m
+
+and it's not working. the second line works, I tried setting the format to
+
+    set efm=%.%#TS%n:\ %m
+
+and I can `:cnext` to it. so I thought the problem is `[tsl]`
+as per the [documentation](https://vimhelp.org/quickfix.txt.html#errorformat) `[` or `]` are matched as-is, and if I wanted to use the same character as a regex operator I should use `%[` (and `%]`).
+but I tried 
+
+    set efm=[tsl]
+
+but nope!. my next attempt for the first line only was
+
+    set efm=%.%#%tRROR\ in\ %f(%l\,%c)
+
+to ignore the first bit, but again, it doesn't work. By the way, if I `:copen` without setting the `efm`, I can see all the example lines I pasted above
+Anyone knows what I'm doing wrong?",t3
+18d0vj4,2,1.0,4,2,87,18,2023-12-07T17:37:00Z,"The question says it all. I'd like to copy the text I see when ""mousing over"" an error.",t3
+18d0cqb,4,0.84,2,4,813,125,2023-12-07T17:13:23Z,"I still have several functions written in old vimscript (&lt;9). Now that I'm using vim9, I noticed that there are several problems between local variables and global variables. I think because vimscript9 no longer support \`a:\` and \`s:\` variables. 
+
+An example: 
+
+     function! MyFunction(var1, var2)
+        let s:var3 = ""250""
+    
+    python3 &lt;&lt; EOP
+    import vim
+    
+    # How to import the values in python?
+    
+    print(var1 + "" "" + var2 + "" "" + var3) 
+    EOP
+     endfunction
+    
+    :call MyFunction(""12"", ""14"") 
+    :call MyFunction(""16"", ""18"") 
+
+What I did so far is to use \`vim.eval()\` to import the variables in python, but the values of the variables are not updated when I call the same function again.
+
+How can I import variables from vim into python?
+
+Can someone please help me?",t3
+18ct3ps,11,0.76,6,11,51,11,2023-12-07T10:54:19Z,just it works in gvim on Win... maybe in Linux too.,t3
+18cspjq,2,0.62,3,2,869,144,2023-12-07T10:25:46Z,"Sorry if this is a redundant query but i could not find a answer to this on SO and reddit.
+
+I am quite new to vim. I want to enable the python3 runtime in it.
+
+I ran the `:version` command in vim and found out that `python` and `pyhton3` were not supported since they had a (-)sign in front of them. 
+
+I did some googling landed on these:
+
+[Link1](https://richrose.dev/posts/linux/vim/vim-compile/) : This guides me to re-install and compile the vim with new configurations.
+
+Then I went to [official vim](https://github.com/vim/vim) GitHub and looked around and it also had only instruction for installing vim  from scratch.
+
+What I want is to be able to enable the python3 runtime support without re-installing the whole thing.
+
+Is it possible? 
+
+Also, I am skeptical whether re-compiling and installing vim will remove my .vimrc file and the plugins in .vim folder? ",t3
+18ck74l,0,0.5,29,0,177,7,2023-12-07T01:40:28Z,"[The same pole on r/emacs](https://www.reddit.com/r/emacs/comments/18ck717/terminal_or_gui_app_on_which_do_you_use_emacs_more/)
+
+[View Poll](https://www.reddit.com/poll/18ck74l)",t3
+18c9lo6,2,0.67,16,2,521,74,2023-12-06T17:48:15Z,"Tried recently [https://workmanlayout.org/#pros-and-cons](https://workmanlayout.org/#pros-and-cons) out of curiosity but it screwed up the positioning of my vim keymaps (as expected). So I was wondering, do people that use different keyboard layouts remap their vim keymaps so they match the key position in a standard QWERTY keyboard? Or do you just live with the characters being in different places?
+
+&amp;#x200B;
+
+I felt weird mostly because HJKL weren't close together anymore and my muscle memory couldn't handle it",t3
+18c9eqy,5,0.67,8,5,0,0,2023-12-06T17:40:03Z,,t3
+18byau2,1,1.0,7,1,86,17,2023-12-06T06:58:30Z,I wish to cancel all the command history of the internal vim terminal. How to do that?,t3
+18bx9n8,12,0.93,6,12,0,0,2023-12-06T05:51:41Z,,t3
+18brh3o,2,0.75,12,2,263,39,2023-12-06T00:46:30Z,"Line: 
+
+&gt;a\_b\_c\_d Varchar = Item(""a\_b\_c\_d"", group=g.e\_f)
+
+I'm trying to record a macro to only delete the underscores within the quotes. Resulting line should be:
+
+&gt;a\_b\_c\_d Varchar = Item(""a b c d"", group=g.e\_f)
+
+How should I go about doing this? ",t3
+18bqsg4,3,1.0,0,3,329,44,2023-12-06T00:13:29Z,"https://github.com/uga-rosa/denippet.vim
+
+Snippet plugin created in the denops ecosystem. It has the following features:
+- Full support for JS regular expressions
+- Definitions can be written in json/toml/yaml/TypeScript formats of your choice
+  - Can also load VSCode snippets as-is
+- Dynamic snippets using TypeScript functions",t3
+18bi8tf,2,1.0,9,2,655,82,2023-12-05T18:11:18Z,"I installed vim 9 but still have multiple functions written in old vimscript.
+
+I've read that functions written in old vimscript still work.
+
+However I noticed that importing variables into Python \`vim.eval(""a:myvariable"")\` no longer works
+
+I don't always get the right values imported.
+
+Example :
+
+    :call MyFunction(""12"", ""14"")
+    
+    function! MyFunction(variable1, variable2)
+    
+    python3 &lt;&lt; endpython
+    variable1 = vim.eval(""a:variable1"")
+    variable2 = vim.eval(""a:variable2"")
+    print(variable1 + "" "" + variable2)
+    endpython
+    
+    endfunction
+
+What's wrong in above code?
+
+Or better... why doesn't it work anymore in vim9?",t3
+18bfqnu,267,0.93,2,267,0,0,2023-12-05T16:22:56Z,,t3
+18beogi,3,1.0,2,3,1043,133,2023-12-05T15:39:57Z,"It took a while to figure it out.
+
+    "" selects the Camel Cased word your cursor is 
+    "" at the start of, and wipes it out leaving
+    "" the cursor in the right position.
+    func! s:ReplCamelCase()
+        call feedkeys(""v/[A-Z][^A-Z]*/e^Mc"")
+    endfunc
+    
+    "" selects all lowercase until upper case 
+    "" and lets you type in the replacement.
+    func! s:ReplDromedarCase()
+        call feedkeys(""v/[a-z][^A-Z]*/e^Mc"")
+    endfunc
+    
+    map &lt;silent&gt;&lt;nowait&gt;[c :&lt;c-u&gt;call &lt;SID&gt;ReplCamelCase()&lt;CR&gt;
+    map &lt;silent&gt;&lt;nowait&gt;[C :&lt;c-u&gt;call &lt;SID&gt;ReplDromedarCase()&lt;CR&gt;
+    "" below for changing word/part to next underscore.
+    map c_ ct_
+    
+
+Enjoy, or, better, show me a better alternative. ;)
+
+**Edit**
+
+`gc` is an unfortunate keymapping if you use Tim Pope's `commentary`, so I changed it to `kc` and I also changed `gD` to `kC`, for consistency.
+
+**Edit\+\+**
+
+The above mappings had side effects, probably because of the `&lt;nowait&gt;`.
+
+I ended up with `[c` and `[C`",t3
+18b7p1l,33,0.96,27,33,0,0,2023-12-05T08:42:36Z,,t3
+18b2c96,1,1.0,3,1,531,97,2023-12-05T03:14:52Z,"I want to append several lines at the start just after I created a new file, so I wrote this function:
+```vim
+function! SetHeader()
+  let l:lines = '
+\ // author: ...
+\ // date: ...
+'
+  call append(line('.'), l:lines)
+endfunction
+
+autocmd BufNewFile *.cpp, *.c,*.java call SetHeader()
+```
+Actually there are pretty many lines after, I just don't write them all. I want it be multiple lines of comments, but when I created a new file, they are all messed up in one line. So how should I carry a line break in a multiple line string?",t3
+18b1nqj,204,0.94,12,204,0,0,2023-12-05T02:40:18Z,,t3
+18ammai,1,0.56,8,1,0,0,2023-12-04T15:30:59Z,,t3
+18amjqs,0,0.22,25,0,302,48,2023-12-04T15:27:35Z,"From the Hulu series *Murder at the End of the World*.
+
+&gt;!https://www.youtube.com/watch?v=apecp2EjFjI!&lt;
+
+I have to say, I had a visceral reaction to the ""vee eye"" pronunciation, but I guess some people actually call it that? Also, the real competition is between Vi*m* and Emacs, not vi an Emacs.",t3
+18aeprf,154,0.85,49,154,0,0,2023-12-04T06:59:59Z,,t3
+18a8cjv,3,1.0,9,3,402,62,2023-12-04T00:56:09Z,"title says it all, is there a way to do this, because vat and vato dont do what i want.
+
+if i have
+
+&lt;li&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;
+
+&lt;li&gt;&lt;a&gt;&lt;/a&gt;&lt;li&gt;
+
+i want a quick way to jump from inside &lt;a&gt;&lt;/a&gt; to the inside of the bottom &lt;a&gt;&lt;/a&gt; and be able to enter data with insert mode which i would escape after finishing 
+
+what should i do?
+
+&amp;#x200B;",t3
+18a5i64,1,0.6,6,1,295,62,2023-12-03T22:40:01Z,"**Hi**
+
+I'd like to know if an URL was added to a list in past.
+
+so I copy the URL from browser ctrol+C, and in gvim I'd like to use in command line the command /""*p for paste the URL and find if URL was  / wasn't added before.
+
+*any help for do looking for URL in text.*
+
+Thank you and REgards!",t3
+189z35z,0,0.33,19,0,754,125,2023-12-03T18:01:12Z,"i hate emacs keybindings and i mean i genuinely hate them from bottom of my heart it's just so frustrating to use them i might get 80 years old when i sucessfully get comfortable with those keybindings
+
+&amp;#x200B;
+
+Sorry for the rant,
+
+but i can't get around the fact that emacs keybindings are quite commonplace everywhere i see mostly in gnu made products
+
+it might be because they created the keybindings and they want to stick to it
+
+&amp;#x200B;
+
+why aren't those keybindings changed why does gnu only provide the emacs keybindings
+
+&amp;#x200B;
+
+the moment emacs adopted evil keybindings meant that the emacs keybinding just didn't do the job
+
+why didn't gnu realize that and put vim keybindings in place of emacs ones
+
+&amp;#x200B;
+
+&amp;#x200B;",t3
+189uh4b,69,0.98,16,69,0,0,2023-12-03T14:21:37Z,,t3
+189o9g0,2,0.62,2,2,272,59,2023-12-03T07:20:43Z,"I know this is really a niche question, but I have text files on my MacBook that I would like to be able to access/edit on my iPad.
+
+I don’t have a clue as to the text path to my iCloud Drive.
+
+Is there a way to open a graphical file browser in iVim to get to those files?",t3
+18962r0,6,0.87,15,6,527,101,2023-12-02T15:28:41Z,"Hi,
+
+Is there any way to disable vim from creating a new file from the command `:w${anything}`? I often mistype the command of `:w` to `:w\` because \\ key is very close to the Enter key and I accidentally press them both. This results to a junk file named '\\' in my project root folder and most of time I wasn't even aware of this.
+
+Therefore, I really wish I could disable vim from creating a new file when I mistype. Or even better is that I could disable vim from creating a new file named '\\'.
+
+Thanks for your attention",t3
+1895fqc,15,0.82,4,15,223,32,2023-12-02T14:57:16Z,"Jump to any location on screen by typing two characters.
+
+https://github.com/girishji/easyjump.vim
+
+Basically, I rewrote easymotion like plugin the way I wanted using 100+ lines of Vim9 script. Hopefully you'll like it too.",t3
+188qfkl,0,0.4,0,0,156,32,2023-12-02T00:04:37Z,"How can I type in vim using the Google Input Tools dialog box for a language?
+
+I'm on Windows, and am able to type using the same elsewhere, but not in vim.",t3
+188k7k7,5,0.78,18,5,379,74,2023-12-01T19:28:39Z,"I was trying to use vim with markdown and m4 and I can do `:set syntax=markdown` or `:set syntax=m4`, but not both at the same time. Tried to look at `:help syntax` as the rules suggest, however I had no luck.
+
+I'm trying to enhance my markdown with macros from m4 on my phone (running in Termux) and it would greatly help me if both would work at the same time.
+
+Is it possible?",t3
+18802gt,4,0.75,6,4,265,53,2023-12-01T02:05:25Z,"I hope this is ok, I wasn't sure where else to ask about this and haven't gotten a decent answer from google. I'm fairly new to vim and C++ and just noticed this doesn't seem to work. Is there anything I need to add to my .vimrc or something that'll make this work?",t3
+187lttn,4,0.75,2,4,245,47,2023-11-30T15:56:55Z,"I use the \`zz\` and \`zt\` movements a lot, but I am constantly wishing there was an option to move the cursor to 1/4 down the screen (that is, half way between where \`zt\` and \`zz\` would place the cursor). Is there a way to accomplish this?",t3
+187iy2a,1,1.0,10,1,572,108,2023-11-30T13:48:56Z,"So, Alacritty stopped working after last Os update, and I started afresh with kitty.
+In order to get switched cursor between normal, insert mode and replace mode,
+I have to source my terminal and mouse settings in an `VimEnter` autocommand, *after* I have executed the same commands in `.vimrc`, I have to source airline that way too.
+
+I have no idea why I have to do this, and why this works, but it does.
+
+It's a kludge however, so if any of you guys have the same setup, and could share what it takes to make the cursors work in a more clean way, I'd be happy.
+
+Thanks.",t3
+187ij9d,1,0.6,22,1,683,131,2023-11-30T13:28:53Z,"I've been thinking about changing what browser I use (just a chrome Andy rn) and was thinking about going all the way and using a vim style browser.
+
+the only features I really want/need are password managing, Adblock, and sessions across devices would be huge. I watch twitch so I'd like to use the better ttv extension 
+
+I've looked at qute and vimb, but I'm not sure if they'd work and qute is written in python which I'm not a fan of. then I saw vieb which seems really good, although it is written in js, and has some nice plugin stuff, but the aur package is out of date.
+
+It seems like there's a ton of these browsers, so if anyone else has any suggestions I'd like to hear :)",t3
+187gezp,4,1.0,17,4,222,40,2023-11-30T11:29:26Z,"Is there a motion that doesn't move, such that one can apply an operator to the character the cursor is on? E.g. typing gUm in normal mode, where m triggers the motion, should make the character below the cursor uppercase.",t3
+187fnlc,1,1.0,9,1,628,105,2023-11-30T10:39:42Z,"So I have this in vimrc
+
+&amp;#x200B;
+
+nnoremap &lt;F5&gt; :!w \\| make -k \\| ./%:r &lt;CR&gt;
+
+&amp;#x200B;
+
+I managed to find how to do it by searching but in the documentation there was {lhs} and {rhs}:
+
+:nn\[oremap\] {lhs} {rhs}		|mapmode-n|	\*:nn\*  \*:nnoremap\*
+
+&amp;#x200B;
+
+My question is where can I find the possible options 
+
+for example I found on google that F5 is &lt;F5&gt; and that &lt;CR&gt; is ENTER and that \\| is to to do multiple commands but where could I have found this on the documentation? (I tried to find but I couldn't, I'm sorry... that's why I'm asking people that know)
+
+&amp;#x200B;
+
+Thanks!",t3
+187ecvt,8,1.0,13,8,1410,182,2023-11-30T09:09:10Z,"So I'm trying to write a simple function to sort array by some key.
+
+the command is this:
+
+```
+jq 'sort_by('.color')
+```
+
+for example, against this JSON:
+
+```json
+{
+    ""colors"": [
+        {
+            ""color"": ""red"",
+            ""value"": ""#f00""
+        },
+        {
+            ""color"": ""green"",
+            ""value"": ""#0f0""
+        },
+        {
+            ""color"": ""blue"",
+            ""value"": ""#00f""
+        },
+        {
+            ""color"": ""cyan"",
+            ""value"": ""#0ff""
+        },
+        {
+            ""color"": ""magenta"",
+            ""value"": ""#f0f""
+        },
+        {
+            ""color"": ""yellow"",
+            ""value"": ""#ff0""
+        },
+        {
+            ""color"": ""black"",
+            ""value"": ""#000""
+        }
+    ]
+}
+```
+
+If I visually select just the colors array (without the key `""colors"":`), it runs the command with the entire first line, like a visual line mode, but it fails since `jq` can operate against the array only without the key.
+```
+:'&lt;,'&gt;!jq 'sort_by(.color)'
+```
+
+I'm able to extract the exact selection with this:
+
+```
+let [lnum1, col1] = getpos(""'&lt;"")[1:2]
+let [lnum2, col2] = getpos(""'&gt;"")[1:2]
+let lines = getline(lnum1, lnum2)
+let lines[-1] = lines[-1][: col2 - (&amp;selection ==? 'inclusive' ? 1 : 2)]
+let lines[0] = lines[0][col1 - 1:]
+let entire_selection = join(lines, ""\n"")
+```
+
+How do I run my `jq` against `entire_selection` and replace the text?",t3
+1879pn7,5,0.86,15,5,587,95,2023-11-30T04:26:16Z,"I've been very happy with vim-gutentags (with exuberant-ctags) and tagbar to handle my code (Python, mostly) and I can't find any shortcomings with this setup.
+
+However, I bumped into a conversation where it was suggested that the best solution would be to have your LSP (YouCompleteMe, in that case) taking care of generating tags. In the same conversation somebody was recommending Vista instead of tagbar to show and navigate tags inside Vim.
+
+
+What is your setup?
+Does anyone has a recommendation in that regard? Any reason to drop exuberant-ctags in favor of universal-ctags or YCM?",t3
+186nnf7,1,0.67,15,1,2687,430,2023-11-29T11:52:13Z,"Hi all,
+
+I want to say I really like VIM and living in the world of terminal. Im sending my email there now. But for last few weeks i want to switch from PyCharm to Vim permanently. The thing is I have trouble customized the color scheme. I dislike any of the mod scheme i found online. So i tried to change vim python in .vimrc file. It's not working at all. I put something like this
+
+`syntax on`
+
+`hi pythonComment ctermfg=2 gui=italic guifg=#408010`
+
+in .rc nothing happened. I tried to look up but found no good documentation for this. VIM has it's documentation but seems not for each individual language. I also want to customize C++ and other languages in the future. Should i do these individually? I'm fine with it but I can't find anything helpful online.
+
+That's the thing about IDEs like PyCharm. It's good a lot of times because there are an army of devs maintain and making it accessible to newbies. Colorscheme in pycharm is pretty, and easily adjustable. But Vim seems no docs for most customization. It's just vim lovers make their own thing and put in online, very scattered.
+
+Also anyone think YouCompleteMe is trash? I rarely use this word but I have to now. Cause it's nowhere near the power of IDE autocomplete. Laggy, or simply not showing. Could you recommend some mod for me in python and C++?
+
+I really would like to do everything in VIM but past few weeks has been casting doubts about my masterplan. I'm one step away from moving back now
+
+P.S. my current .vimrc
+
+`set nocompatible "" be iMproved, required`  
+`filetype off "" required`  
+`"" set the runtime path to include Vundle and initialize`  
+`set rtp+=~/.vim/bundle/Vundle.vim`  
+`call vundle#begin()`  
+`"" alternatively, pass a path where Vundle should install plugins`  
+`""call vundle#begin('~/some/path/here')`  
+`"" let Vundle manage Vundle, required`  
+`Plugin 'VundleVim/Vundle.vim'`  
+`"" Keep Plugin commands between vundle#begin/end.`  
+`Plugin 'ycm-core/YouCompleteMe'`  
+`"" All of your Plugins must be added before the following line`  
+`call vundle#end() "" required`  
+`filetype plugin indent on "" required`  
+`"" To ignore plugin indent changes, instead use:`  
+`""filetype plugin on`  
+`""`  
+`"" Brief help`  
+`"" :PluginList - lists configured plugins`  
+`"" :PluginInstall - installs plugins; append \`  
+`!\` to update or just :PluginUpdate`  
+`"" :PluginSearch foo - searches for foo; append \`!\` to refresh local cache`  
+`"" :PluginClean - confirms removal of unused plugins; append \`!\` to auto-approve removal`  
+`""`  
+`"" see :h vundle for more details or wiki for FAQ`  
+`"" Put your non-Plugin stuff after this line\``
+
+`syntax on`  
+`hi pythonComment ctermfg=2 gui=italic guifg=#408010`",t3
+186n5k5,1,0.52,26,1,465,84,2023-11-29T11:20:49Z,"Any guide / tips / recommendations?  
+
+
+i am working as software engineer, my usage is mostly in VS code - this will probably not change as my company has many different frameworks integrated into VS code.  
+
+
+but i wanted to try using vim instead of sublime as my text editor / side IDE for manipulating texts and saving snippets, etc.
+
+the problem is whenever i start using vim i cant get anything done and i move back to sublime, what do you think?
+
+&amp;#x200B;",t3
+186fhjf,7,0.89,12,7,479,85,2023-11-29T03:20:04Z,"I very much enjoy using the terminal inside of vim. However, when I need to switch from Insert Terminal Mode to Normal Terminal Mode, I know I need to press Control-w, N. However, I'm looking for a simpler way to do this. I started looking into mapping something like Control-b (with no luck), then recording macros (with no luck). So, after an exhausting amount of attempts to figure this out, I decided it was time to ask the community. Any help is greatly appreciated. Thanks.",t3
+185wdvs,8,0.8,7,8,2284,241,2023-11-28T13:45:15Z,"# Overview
+
+I wrote these mappings a while ago and have found them quite useful.
+
+Effectively, these mappings:
+
+* grep through all open files for either the last pattern you searched with or your visual selection
+* populates these results into the error list
+* shows the error list, which lists all matching lines in all open files which match the pattern/selection (including file name, line numbers, and column numbers)
+* allows you to jump directly between these matches (across files) with `&lt;up&gt;` and `&lt;down&gt;`
+
+&amp;#x200B;
+
+# Contrived Examples of it Working
+
+searched with `/[A-z]eed` to show that regex patterns work fine
+
+&amp;#x200B;
+
+https://preview.redd.it/fwnuqbszb33c1.png?width=1398&amp;format=png&amp;auto=webp&amp;s=2930ce0bc4d83b943fbdbb53a781e8e819c2a515
+
+searched with `/\w\.[A-z]`
+
+&amp;#x200B;
+
+[Please note that I am not a js dev \(I primarily develop using C++\); I just opened some random old repo I had lying around](https://preview.redd.it/t815hrtdd33c1.png?width=1256&amp;format=png&amp;auto=webp&amp;s=57dbfcad4261668f01198cb9f7f0d824eb83baa9)
+
+&amp;#x200B;
+
+# Mappings
+
+    function SearchOpenFiles()
+        argadd %
+        argdel *
+        bufdo argadd %
+        vimgrep //g ##
+    endfunction
+    
+    nnoremap &lt;Leader&gt;&lt;C-s&gt; :cclose&lt;CR&gt;:silent :call SearchOpenFiles()&lt;CR&gt;:copen&lt;CR&gt;
+    vnoremap &lt;Leader&gt;&lt;C-s&gt; ""9y/\V&lt;C-r&gt;9&lt;CR&gt;:cclose&lt;CR&gt;:silent :call SearchOpenFiles()&lt;CR&gt;:copen&lt;CR&gt;
+    nnoremap &lt;Up&gt; :&lt;c-u&gt;execute v:count1 . ""cprev""&lt;CR&gt;
+    nnoremap &lt;Down&gt; :&lt;c-u&gt;execute v:count1 . ""cnext""&lt;CR&gt;
+
+(I'm sure there is a better way to write it, but this was what I hacked together back then and it works!)
+
+&amp;#x200B;
+
+# If you have NerdTree (to avoid issues)
+
+    nnoremap &lt;Leader&gt;&lt;C-s&gt; :NERDTreeClose&lt;CR&gt;:cclose&lt;CR&gt;:silent :call SearchOpenFiles()&lt;CR&gt;:copen&lt;CR&gt;
+    vnoremap &lt;Leader&gt;&lt;C-s&gt; ""9y/\V&lt;C-r&gt;9&lt;CR&gt;:NERDTreeClose&lt;CR&gt;:cclose&lt;CR&gt;:silent :call SearchOpenFiles()&lt;CR&gt;:copen&lt;CR&gt;
+
+&amp;#x200B;
+
+# Misc.
+
+I hope this is useful to some of you!  Feel free to share anything you do that is similar/better (code improvements are also welcome, of course).",t3
+185q5bs,10,0.82,8,10,508,65,2023-11-28T07:09:35Z,"I prefer manual ""in-place"" editing over regex-based search and replace `:s///`, at least the `ciw` (change in word) approach is my goto.
+
+So I was happy when I realized this mapping would easily repeat my last change in the current buffer:
+
+`nnoremap g. :%s//&lt;c-r&gt;./g&lt;cr&gt;`
+Hope it can help you as well, and do tell if you have other clever time savers like this.
+
+asciicast: https://github.com/kaddkaka/vim_examples/blob/main/README.md#repeat-last-change-in-all-of-file-global-repeat-similar-to-g",t3
+185p99q,4,0.83,0,4,0,0,2023-11-28T06:11:05Z,,t3
+185p546,0,0.29,0,0,0,0,2023-11-28T06:03:44Z,,t3
+1858ewg,2,1.0,2,2,380,36,2023-11-27T17:30:16Z,"I want my Domainlist sorted 1. by Domain and 2. by subdomain:
+
+[a.at](https://a.at)
+
+[a.com](https://a.com)
+
+[b.at](https://b.at)
+
+[www.b.at](https://www.b.at)
+
+[c.at](https://c.at)
+
+[www.d.at](https://www.d.at)
+
+[e.at](https://e.at)
+
+[aaa.e.at](https://aaa.e.at)
+
+[www.e.at](https://www.e.at)
+
+&amp;#x200B;
+
+Any ideas how to manage this in vim? Great thanks for any help!!!
+
+fred",t3
+18572fn,20,0.86,1,20,250,23,2023-11-27T16:34:36Z,I’m introducing a new method to help advanced users overcome their plateaus. It’s a six-week challenge that has never been done before. [https://github.com/cipherlogs/s909/blob/main/sprints.md](https://github.com/cipherlogs/s909/blob/main/sprints.md),t3
+1855auu,1,0.67,4,1,272,47,2023-11-27T15:18:05Z,"**Hi**
+the command :explore isn't working showing e 492 or similar number of error. I used :explore before without problem... I'am using gvim.
+of course I used the classic explorer but diceded not more plugins in my new version of live.
+
+*any help*
+
+Thank you and Regards!",t3
+184gb3l,8,0.68,36,8,238,50,2023-11-26T17:49:26Z,"I was using VS Code before but i wanted to try something new, I tried Vim it was kinda strange for me, so i started using gVim, I don't know much about it so I would be happy if you gave me  recommendations for things I should learn or do",t3
+184cbbq,7,0.89,1,7,602,80,2023-11-26T14:50:06Z,"&amp;#x200B;
+
+https://i.redd.it/p688wznrgp2c1.gif
+
+I was looking at the answers for [this question on StackExchange](https://vi.stackexchange.com/q/3093/37532) and started modifying one the answers for Linux to make it work better and work with Windows. It was a lot more difficult than I was expecting, so I thought I might as well make it a plugin when I finally got it working well.
+
+It changes the font size (and therefore window size too) in gvim, using Ctrl+/- or mousewheel.
+
+Works on Linux and Windows.
+
+[https://github.com/eggbean/resize-font.gvim](https://github.com/eggbean/resize-font.gvim)",t3
+184bkj3,1,0.57,4,1,273,50,2023-11-26T14:12:41Z,"Vim newbie here. Is it possible to do something like:
+
+nmap gg ggzz
+
+nmap G Gzz
+
+nmap :&lt;num&gt; "" and then it automatically does zz
+
+So as to be able to refocus your screen automatically when jumping by many lines? I tried the above approach but with no success.
+
+Thanks",t3
+18482kc,3,1.0,4,3,387,68,2023-11-26T10:42:01Z,"I'm looking for a way to write some configuration in my vimscript file to find lines matching certain regex and then colour the specific word in those lines matching another regex.
+
+For example, when I'm writing, grab everything after it, before the colon, C++ code, I want to find all lines with a `case` keyword, grab everything after it, before the colon, and then color it in blue.  ",t3
+183rq5l,1,0.57,4,1,217,41,2023-11-25T19:42:57Z,"I ask because I accidentally did this and have no idea what I did to do it. Basically, if I'm looking at foo.txt, how can I quickly create a vertical or horizontal split that will also show foo.txt? Thanks in advance!",t3
+183l416,2,1.0,4,2,257,46,2023-11-25T14:39:24Z,"I've been using dracula as my theme for everything in the terminal: the terminal itself, tmux, and vim. 
+
+I've lately been interested in trying to find a light theme and wanted to know if there was any good ""suite"" of themes like dracula, but light. Thanks!",t3
+183grnd,0,0.5,1,0,195,28,2023-11-25T10:15:51Z,"**HI!**
+
+I'd like to write 3 letter ¿3 chareteres? in subindexes togheters **these 3 lettes:&lt;eff&gt;**
+
+letter subindex is like numbers subindex H₂O₂₂
+
+using digraphs
+
+*Thank you and regards!*",t3
+183gjjq,46,0.96,5,46,0,0,2023-11-25T10:00:37Z,,t3
+182xx8q,11,0.69,4,11,1666,284,2023-11-24T17:58:51Z,"Source code: [https://github.com/ylsama/vimrc-vietnamese-telex](https://github.com/ylsama/vimrc-vietnamese-telex)
+
+&amp;#x200B;
+
+For non-vietnamese: This is a .vimrc file with 1000 inoremap that providing very basic vietnamese TELEX typing. It is irrelevant for almost everyone but for vietnamese people. The post is mainly for other Vietnamese people helping me check this out (thus, i writing only in vietnamese from now-on). 
+
+&amp;#x200B;
+
+For vietnamese:
+
+Trong quá trình dùng VIM thì việc edit, việt tài liệu khá là bực mình với mấy ông bộ gõ, đặc biệt là dùng normal node. Nên t code vo cũng tiện học cách dùng VIM macro \`q@.\` các thứ. Dù sao ngồi học cách code bộ gõ cho chuẩn để code lại bằng Function VIM rồi debug chết mệt thì việc inoremap này tốn tầm \~2-3h là tạm được
+
+&amp;#x200B;
+
+Định hình cái này khá tốt trong trường hợp:
+
+\- VIM motion ở các app: Không muốn dùng bộ gõ tiếng việt khi dùng VIM motion vì bất tiện, kha khá app hỗ trợ VIM motion và chỉ hỗ trợ tối thiểu một số lệnh .vimrc (Obsidian là một ví dụ) thì cứ thế mà gõ tiếng việt thôi.
+
+\- Đẩy lên Server và dùng luôn (SSH, Telnet, ...): chứ cài bộ gõ lên server chỉ để viết tài liệu hướng dẫn thì khá là buồn cười.
+
+\- Một vài người muốn dùng thuần VIM để xử lý văn bản: Bộ gõ gần như không dùng được, bật tắt liên tục thì bất tiện
+
+&amp;#x200B;
+
+Hiện không có bật tắt, chỉ dùng thằng vimrc luôn, vì mình chủ yếu dùng neovim, nên bật VIM xác định là chỉ phục vụ vài việc đặc thù (để config file là chính), không gõ tiếng việt thì bật neovim.
+
+https://preview.redd.it/uvq883ly1c2c1.png?width=952&amp;format=png&amp;auto=webp&amp;s=57dd60f916c21b554206369c0e2e06f902cc3c4a
+
+&amp;#x200B;",t3
+182t1ll,7,0.99,1,7,271,49,2023-11-24T14:15:31Z,my `:registers` output includes many characters like `^I` or `^J` i don't really care what they mean all i want is at least allow me to change the highlighting as they are highlighted in a bright blue color which i don't like. searching in help pages didn't find anything,t3
+1825ps6,7,0.89,9,7,215,42,2023-11-23T17:03:18Z,"As in the title is their a way to do, for example `d/hello` without setting the `/` register to `hello`. I know there is a `:keeppattern` command but I don't want to have to remap all commands with motion to use it.",t3
+1825jij,11,0.92,9,11,691,83,2023-11-23T16:55:44Z,"Hello, I would like some help on what would be the best way / fastest way to select the following in the picture and copy the contents? I tried using &lt;C-V&gt;5jt=y but that gives me a whole block. Is there any way of doing it? maybe a macro?
+
+the code:
+
+    self.notes: List[Note] = notes
+    self.notes_to_add: List[Note] = list()
+    self.notes_to_edit: List[Note] = list()
+    self.notes_to_delete: List[Note] = list()
+    self.new_pictures: List[Picture] = list()
+    self.pictures: List[Picture] = [picture for note in notes for picture in note.pictures]
+
+https://preview.redd.it/plxcfnyfo42c1.png?width=713&amp;format=png&amp;auto=webp&amp;s=368e0c363a45de49ecef103dbd30881222b53fe1",t3
+18239k5,2,1.0,6,2,505,54,2023-11-23T15:12:01Z,"With a given plugin-directory-structure like...
+
+    myplugin/
+    ├── autoload
+    │   └── myplugin.vim
+    ├── contrib
+    │   └── myplugin-helper.sh
+    ├── doc
+    │   └── myplugin.txt
+    ├── plugin
+    │   └── myplugin.vim
+     └── README.md
+
+... I would like to run the script `contrib/myplugin-helper.sh` inside a `function`...
+
+    function! s:myfunction()
+      silent! execute ""!&lt;?????&gt;/contrib/myplugin-helper.sh""
+    endfunction
+
+How do I get the missing path-compnent (`&lt;????&gt;`)?",t3
+181ujpq,4,0.75,0,4,559,70,2023-11-23T06:10:11Z,"I would like to add a conceal feature for:
+
+* `&lt;u&gt;lorem ipsum&lt;/u&gt;`
+* `&lt;span class=""underline""&gt;lorem ipsum&lt;/span&gt;`
+
+Ive tried a couple of things and have failed. 
+
+I'm trying this for markdown.
+
+
+---
+
+EDIT: figured out how to conceal. but it also disables underline
+
+```
+"" Conceal &lt;u&gt;
+syntax match ConcealedUnderlineStart /&lt;u&gt;/ conceal cchar= 
+highlight link ConcealedUnderlineStart Normal
+
+"" Conceal &lt;/u&gt;
+syntax match ConcealedUnderlineEnd /&lt;\/u&gt;/ conceal cchar= 
+highlight link ConcealedUnderlineEnd Normal
+```",t3
+181h6d1,2,0.57,14,2,319,35,2023-11-22T19:16:16Z,"**\[SOLVED\]**
+
+Window screen becomes white before setting theme in vim, please see the attached video.How can I fix it?
+
+I have used the [everforest.vim](https://github.com/sainnhe/everforest) colorscheme and the issue is only with that colorscheme.
+
+Thanks!
+
+https://reddit.com/link/181h6d1/video/iisa46zq8y1c1/player",t3
+181gfjy,2,1.0,0,2,1984,166,2023-11-22T18:44:36Z,"I'm using the [coc-pylsp](https://github.com/yaegassy/coc-pylsp) extension of of [coc](https://github.com/neoclide/coc.nvim). Actually I have been using it for a while. Now, I have changed some small things in my virtual environments, and I have messed something. I'm trying to recover the way all this used to work but it doesn't any more. Can you help me to debug this? I'm stuck.
+
+More details:
+
+\- My .vimrc has this: `Plug 'neoclide/coc.nvim', {'branch': 'release'}`
+
+\- I install coc-pylsp with `:CocInstall u/yaegassy/coc-pylsp`
+
+\- I install all extras required by the latter by running `:CocCommand pylsp.builtin.install`
+
+\- My \~/.config/coc/extensions/@yaegassy/coc-pylsp-data/pylsp/venv/bin directory has python, ruff, pylint the rest of necessary binaries
+
+\- my .vim/coc-settings.json has this content:
+
+      {
+      ""pylsp.plugins.pycodestyle.enabled"": false,
+      ""pylsp.plugins.flake8.enabled"": false,
+      ""pylsp.plugins.flake8.ignore"": [""E265"", ""E266""],
+      ""pylsp.plugins.pydocstyle.enabled"": false,
+      ""pylsp.plugins.mccabe.enabled"": false,
+      ""pylsp.plugins.pyflakes.enabled"": false,
+      ""pylsp.plugins.yapf.enabled"": false,
+      ""pylsp.plugins.ruff.enabled"": true,
+      ""pylsp.plugins.ruff.extendSelect"": [""E"", ""D"", ""C90""],
+      ""pylsp.plugins.ruff.lineLength"": 79,
+      ""pylsp.builtin.installExtrasArgs"": [
+      ""flake8"",
+      ""yapf"",
+      ""mccabe"",
+      ""pycodestyle"",
+      ""pydocstyle"",
+      ""pyflakes"",
+      ""pylint"",
+      ""rope""                                                                                                                                                               
+      ],
+      ""pylsp.builtin.enableInstallPythonLspRuff"": true,
+      ""pylsp.builtin.enableInstallPylsIsort"": true, 
+      ""diagnostic.messageTarget"": ""float"", 
+      ""diagnostic.checkCurrentLine"": true,
+      ""suggest.enablePreselect"": false,
+      ""suggest.noselect"": true
+      }
+
+It should work! Any idea how to debug this?
+
+&amp;#x200B;",t3
+181e6kf,9,1.0,18,9,664,121,2023-11-22T17:10:12Z,"Edit : For anyone wondering, u/Fantastic_Cow7272's solution works perfectly ! Thanks to everyone who replied as well :) (only works if you have just a link on each line and nothing else)
+
+Hi, I've been struggling with this for about an hour because I just suck at using RegEx so I'm asking for help !
+
+Basically, I have a huge list of markdown links, and I'd like to convert all of them into their text only (removing the square brackets, url and parentheses)I've tried creating a RegEx that matches that in order to delete it to no avail, and even chat GPT isn't helping here, always giving me invalid commands.
+
+So yeah, please can someone help me with this ? :)",t3
+18158i3,8,1.0,2,8,449,81,2023-11-22T09:25:10Z,"`:chistory` shows that Vim keeps track of all (or at least a lot) of current and past quickfix searches
+
+    &gt; error list 1 of 2; 1053 errors  whatever
+      error list 2 of 2; 1038 errors  :setqflist()
+
+And according to `:h getqflist-examples` you can even query / title / etc these saved searches. But how can you query how many lists there are? I know from `:chistory` that the answer is 2 but what's the API call to get that same information?",t3
+1812ab3,7,1.0,7,7,645,107,2023-11-22T06:00:28Z,"Question: how do I make some nmaps that only apply in ""diff mode"", that will work in 8.2?
+
+&amp;#x200B;
+
+Background: For years I've used some **nmap**s that only apply when I start Vim as vimdiff (EDIT: or gvimdiff) on my Windows machines (which I would typically do by selecting multiple files in the Windows File Explorer, then right mouse clicking).
+
+I made these mappings mode-specific by putting them inside the MyDiff() function in \_vimrc, as this function gets called when entering ""diff mode"".
+
+This stopped working when one of my Vims was updated to 8.2, presumably because this version uses an internal diff and MyDiff() isn't called.",t3
+180f9jr,0,0.5,15,0,46,9,2023-11-21T11:54:36Z,Which One Came Before Vim Or The Linux Kernel?,t3
+180cqyl,1,1.0,12,1,1538,177,2023-11-21T08:57:49Z,"I'm writing a super simple syntax file for a small plugin that handles a special type of read-only buffer that shows some information.
+
+The syntax file is just:
+
+      syntax match ECS ""^ECS.*""
+      syntax match HPC ""^HPC.*""
+      syntax match TOTAL ""^Summary.*""
+      syntax match MARK ""^&gt;.*""                                                                                                                   
+      highlight link ECS Comment
+      highlight link HPC Constant
+      highlight link TOTAL Function
+      highlight link MARK IncSearch
+
+When I type `syntax` in the buffer I get (among many other lines) what you could expect:
+
+    ECS            xxx match /^ECS.*/
+                       links to Comment
+    HPC            xxx match /^HPC.*/
+                       links to Constant
+    TOTAL          xxx match /^Summary.*/
+                       links to Function
+    MARK           xxx match /^&gt;.*/
+                       links to IncSearch
+
+The problem is that the `MARK` group does not work (see attached image). Even more strange is that if I manually type `:syntax match MARK ""^&gt;.*` then it does work, and the output of `syntax` is now (note the doubled and redundant match):
+
+    MARK           xxx match /^&gt;.*/
+                       match /^&gt;.*/
+
+Why it does not work in first instance? Why does it need to have match doubled for it to work?
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+https://preview.redd.it/if1e9urcqp1c1.png?width=1596&amp;format=png&amp;auto=webp&amp;s=bae92fa1b45b64007542a7ec1abad34a90ad8d28",t3
+180c18m,6,1.0,2,6,490,77,2023-11-21T08:07:25Z,"For example, in this code block:
+```c++
+template &lt;typename T, typename E&gt;
+class expected&lt;T, E, true&gt; {};
+```
+If I press `enter` on the curly bracket, the whole class block will automatically indent, which became like this:
+```c++
+template &lt;typename T, typename E&gt;
+    class expected&lt;T, E, true&gt; {
+
+    };
+```
+What I really want is this:
+```c++
+template &lt;typename T, typename E&gt;
+class expected&lt;T, E, true&gt; {
+
+};
+```
+Could anyone tell me how to solve this?",t3
+180aamr,4,1.0,8,4,0,0,2023-11-21T06:12:13Z,,t3
+1804qgr,15,1.0,32,15,581,102,2023-11-21T01:12:42Z,"Could anyone share their latex workflow not using the vimtex plugin. Currently im using a continuous compile command from another tmux session but i would love to hear different setups. 
+
+Also, I've noticed that soft wraping usually is the way to go since it keeps the viewing experience consistent no matter the resizing or viewing of other collaborators. Having to go with `gj` `gk` to move by screen lines does get annoying though and it's the one thing that keeps me from using vim as a latex editor. How do you chose to navigate a soft wrapped document?
+
+Thanks for your time!",t3
+17zzcgc,7,0.82,15,7,3014,525,2023-11-20T21:21:00Z,"Hi,
+
+First of all, apologize for my grammatical errors and for the long paragraph.I think I need tips AND/OR motivation to keep using Vim because I feel that I'm almost to the point where everything feels so cool.
+
+**Some context about me**
+
+I work as a web developer, I'm 31yo, I live in France (yep, my keyboard is azerty). I work as web developer for more than 10 years now, and I really love my job and do my best to improve myself, knowing that I lack some algorithms knowledge.
+
+About my editor experiences, I started with Sublime Text at the time it was used almost everywhere for software development, and then I switched to Intellij, and I felt in love with it.
+
+I started using Vim only 1 week ago, exactly it was on November 11th during the evening, I remember it well because I discovered ThePrimeagen channel and wanted to give a try to Vim.
+
+My config is really cool to me, I made it ""by myself"", meaning that I took my time and did not used any pre-configured distro, but just created my lua files 1 by 1. I have everything working perfectly on my repositories: LSP, a nice colorscheme, and some cool plugins (telescope, harpoon, vim-surround, and bunch of other utilities)
+
+I'm also getting used to Vim motions and basic vim mappings, I think I have some of the basics:
+
+\- Jump vertically with `(number)j/k`
+
+\- Move horizontally with `w`, `b`, `F`, `f`, `T`, `t`
+
+\- Quickly edit with c(i-a)(w or anyting), di(w-...)
+
+\- Search with / or vim-flash
+
+To be clear, I'm really not saying that I know most of the commands, but it seems to me as a good starting point.
+
+&amp;#x200B;
+
+**Friction point**
+
+Here is where I struggle the most: when I need to combine jumps and horizontal movements to edit some code that I visually see on my screen. Here is an example:
+
+&amp;#x200B;
+
+https://preview.redd.it/ria9u7xnkk1c1.png?width=1794&amp;format=png&amp;auto=webp&amp;s=25a8e30ac002cb1fd01c71e866796eedb53a7619
+
+&amp;#x200B;
+
+As you can see, my cursor is on the `y` of the first line, and, let's say that for some reason I need to edit the `HapoonNavNext()` because I misspelled it and want to instead write `HarpoonNavFinal()`. Here are the 2 combinations I see and usually use:
+
+\- Jump down 2 lines with `2j`, then either move with `w`, or `fH`, and then `ciw`. Also, the simple fact of thinking of the fastest keystroke when using `f` or `t` makes me feel like I lose time.
+
+\- Search for my word: `/HarpoonNavNext` and perform replacement
+
+This is really my biggest friction point, the thing is that I can't stop thinking that it would be so much faster with the mouse, but every time I'm tempted to use it I feel like I'm cheating.
+
+Do you have some tips to ease this process of combining vertical and horizontal movements almost at the same time ? What's for you the most efficient way to perform this ? I am not necessarily in need of a magical command that I don't know, I just don't know what's the more efficient, so I can get used to a good practice to get faster.
+
+&amp;#x200B;
+
+&amp;#x200B;",t3
+17zwodn,3,1.0,13,3,548,94,2023-11-20T19:29:31Z,"i was wondering while writing c programs 
+
+{} and positioning cursor at center and pressing enter does 
+
+&amp;#x200B;
+
+{
+
+(cursor is here)}
+
+&amp;#x200B;
+
+moves our cursor to end of brackets
+
+however when we use IDE's
+
+&amp;#x200B;
+
+pressing enter does 
+
+{
+
+(cursor is here)
+
+}
+
+&amp;#x200B;
+
+is there a way to make vim do this
+
+i've been using it for 2 years and this is the only thing i'm sad about else everything about vim is amazing never expected i would be just using terminal for this long without getting irritated thanks to this community",t3
+17znub0,0,0.35,1,0,404,22,2023-11-20T12:51:44Z,"&amp;#x200B;
+
+[:h |](https://preview.redd.it/s4820ego1i1c1.png?width=1000&amp;format=png&amp;auto=webp&amp;s=4fa51ff296df5ef2b30734e9b89a08cff95c2e08)
+
+Meme improvements inspired by reddit comments.
+
+(I tried adding an image comment to the original [https://www.reddit.com/r/vim/comments/17xfh6a/avimuserwalkedintoabar/](https://www.reddit.com/r/vim/comments/17xfh6a/avimuserwalkedintoabar/) but no luck)",t3
+17z9nki,3,0.67,6,3,1254,187,2023-11-19T23:01:16Z,"I'm learning Vim and I set myself a challenge: to create a command to swap two characters, without polluting the unnamed register, undoable in one step only.
+
+I came up with a working solution which looks ugly to my non-coder eyes. Still, I'm proud of myself though, I'm just a writer who loves writing in Vim, after all.
+
+We yank the leftmost character to register b, yank the next character to register a, merge the two registers into register c in reverse order (a + b), delete the two characters to the black hole register, and paste from c.
+
+Any thoughts on how to make this look prettier?
+
+    "" swap two characters via registers merge
+    command! -bar SwapCharsYank execute 'normal ""byll""ayl'
+    command! -bar SwapCharsMerge execute 'let @c = @a . @b'
+    command! SwapCharsReplace execute 'normal vh""_d""cPh'
+    command! SwapChars execute 'SwapCharsYank|SwapCharsMerge|SwapCharsReplace'
+
+EDIT: I just discovered I can use uppercase versions of registers to append text, I mean I stupidly thought this would append things linewise only.
+
+So this  simply becomes:
+
+    command! SwapChars execute 'normal! ""aylh""Aylvl""_d""aP'
+
+Now onto the next callenge: making it repeatable...
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+&amp;#x200B;",t3
+17z4lvk,2,1.0,3,2,335,61,2023-11-19T19:20:28Z,"I've figured out the basics of how to create a skeleton file, at least on a per file extension basis. But, I'd like to make a directory specific rule in Neovim's *init.vim* so that AsciiDoc files in that specific directory get a different template. I'm not sure how to pull that off. Can someone please point me in the right direction?",t3
+17z0mwu,12,0.93,8,12,1011,138,2023-11-19T16:18:21Z,"Hi there! Just finished a new plugin [vim-chase](https://github.com/axlebedev/vim-chase), that helps to change words case:
+
+`helloWorld` \- `hello-world` \- `HELLO_WORLD` \- `Hello world` \- ...
+
+(name ""chase"" is for ""***ch***ange c***ase***"")
+
+Originally it was forked from 'vim-case-change', but has been completely rewritten.
+
+Why  made another plugin for this?  
+The main purpose is to see a popup list of words and see how many times should change caseAnother is to have customizable list of variants, and make it work differently with single letter, word or complete sentence (or someComplexNameOfVariable).
+
+How does it work?  
+First, place cursor at &lt;cword&gt; (or visual select) and press `~` one or several times.  
+Plugin will **recognize** current word's case and **change** word, showing upcoming variants.  
+Also it will **highlight** changes.  
+Undo should work as it was single action
+
+Plugin is written in vim9script.
+
+https://reddit.com/link/17z0mwu/video/6hanut03wb1c1/player
+
+&amp;#x200B;",t3
+17yz8sd,10,0.86,3,10,82,1,2023-11-19T15:12:03Z,[https://github.com/onur-ozkan/nimda.vim](https://github.com/onur-ozkan/nimda.vim),t3
+17ytm04,110,0.98,11,110,3366,587,2023-11-19T09:40:42Z,"Hello Everyone! w0rp here. I thought I'd ask on Reddit if there's anyone out there would like to help maintain [ALE](https://github.com/dense-analysis/ale). It would be nice to have another willing volunteer who is up for providing relevant feedback on PRs, answering common questions, merging good PRs, and managing GitHub issues. I'll mention to anyone interested that I have a general policy of never closing issues, no matter how old, unless they are actually either solved or invalid. I bear no compulsions to ensure an that a number of issues, which is arbitrary, remains low. I have a relatively simple vetting process, which mostly just requires building trust over time.
+
+I'd like to add a little more context about [Dense Analysis](https://denseanalysis.org/) in the form of a bit of history. Originally I created ALE in a week or two, just in time for the release of Vim 8.0, knowing it wouldn't be too difficult to make an async Syntastic with the newly available APIs. Years later I realised in order to manage issues properly I'd need a GitHub organisation, which anyone can create easily on GitHub. Last year, 2022, I thought it would be a good idea to turn that org, Dense Analysis, into an actual charity and move the 2-clause BSD copyright to that charity instead of my online moniker. That charity is now a 501(c)(3) nonprofit, which I'm going to leverage to build a lot of interesting stuff in future.
+
+Dense Analysis now has GitHub, Jira, Google Workspace, Windows licences, a Slack, Notion, a Discord, probably just a couple of LastPass licences soon, and probably other great stuff I'm forgetting about, most of which are provided to us for free. Theres $0 of revenue at the moment, but I'm aiming to open a corporate bank account in the name of the nonprofit, and by the Conflict of Interest policy and standard US laws, I will be barred from using that money for anything but the nonprofit's purposes. I've gone out of my way to set it up that way. This is all to say: I'll open up GitHub Sponsors, Patreon, PayPal, etc. in the coming months, and I and others can donate money to the charity. I intend on spending the money on various expenses including building bare-metal network infrastructure for running FOSS LLM tools. (like GPT) I've personally invested at least $1,500 myself already. I'll repeat that I don't need any further income than what my day job provides.
+
+I'll be spending a lot of time building up the corporate structure for the charity and working on AI projects, when I'm not working on my somewhat demanding day job, or the roughly two bands I'm recording music for and performing in. (Which is fun!) I don't have a whole lot of time for merging ALE code and so on, but I will be working on it until I'm physically unable. I did a massive push a couple of months ago or so all at once to make a large series of improvements. I hope to do a lot more over the Christmas period, including supporting more of the `nvim-lspconfig` supported tools, and for Neovim integrating more closely with Neovim standard APIs now, while still supporting Vim 8+. (I will at some point in future require a newer Vim 8.x version.)
+
+I'll forever be grateful to the probably hundreds of people across the world who have contributed to ALE. It's not my plugin, _it's everyone's plugin_. I hope it remains to be useful for many years to come.",t3
+17yrf0o,3,1.0,3,3,535,97,2023-11-19T07:07:55Z,":cbelow / :cafter is useful because you can hop directly to the closest quickfix entry to your cursor. But repeating :cbelow / :cafter will stop advancing when it reaches the end of the current file, even if there are more quickfix entries, which drastically limits its usefulness. When I'm at the end of the entries for a specific file, I'd like to effectively :cnext to go to the next item so I can repeat the process. How can I do this? Plugin suggestions are welcome, in case someone has written this before as I'm guessing it has.",t3
+17y5f7l,9,1.0,4,9,574,104,2023-11-18T12:26:23Z,"I use Vim for about 10 years for all my coding.
+
+For refactoring, VSCode does this ""Extract feature"" where you can automatically extract some code into new functions, inside the current class, ...
+
+Is there anything that does the same feature (to let you choose the scope in which you want to put your function), from inside VIM for Javascript ?
+
+I've looked at YCM but it seems to not support this refactoring for Javascript, and I'm not sure whether it is possible to configure ts-server to do so ?
+
+What are the best resources to setup your vim to do that ?
+
+&amp;#x200B;",t3
+17y2l2u,13,0.85,12,13,376,42,2023-11-18T09:10:43Z,"I'm thrilled to share that the latest [vim-clap](https://github.com/liuchengxu/vim-clap) has now integrated the tree-sitter highlighting into Vim and NeoVim. It's a PoC implementation and not extensively tested though, bugs are expected. Some early feedback is highly appreciated, and read more in [this post](https://liuchengxu.github.io/posts/tree-sitter-highlight-in-vim/)!",t3
+17xzeba,2,1.0,2,2,95,19,2023-11-18T05:28:49Z,Pretty much what the title says; is there a way to have the line number column be the leftmost?,t3
+17xp074,5,0.69,16,5,395,66,2023-11-17T21:03:10Z,"I've been studying vimscript through ""Learn Vimscript the Hard Way"" and although I know Lua and nVim are around I feel it's been a great choice. Lots to discover of the full potential to Vim and I'm slowly feeling more and more comfortable with it.
+
+ I want to know about your experience with it, do you feel it's still really useful to know it?
+
+[View Poll](https://www.reddit.com/poll/17xp074)",t3
+17xo14t,1,0.6,5,1,347,44,2023-11-17T20:18:45Z,"**Hi**. I installed 3 colorschemes: *cobalt, cobalto &amp; cobaltish*
+
+screenshot of colors installed: 
+
+https://imgbox.com/HDmCxZFq
+
+when I set cobaltish in vimrc and do the command :colo &lt;enter&gt; Vim shows cobalt 
+
+screenshot about vimrc showing colo: cobalt insted cobaltish-
+
+https://imgbox.com/IEZelpDS
+
+any help?
+
+Thank you and regards!",t3
+17xgt1o,3,1.0,2,3,659,97,2023-11-17T14:53:46Z,"i'm using vim-lsp with ale. i did not really want to use ale but i just could not make vim-lsp show eslint errors on my project.
+
+But ale's virtual text error messages are very cluttered. How do i format this to show just the error message? i don't need the error codes or linter name
+
+https://preview.redd.it/47b16dq79x0c1.png?width=1282&amp;format=png&amp;auto=webp&amp;s=e9386c6f6bf45583574d84cbf07cbf0d7aa495e9
+
+UPDATE:
+
+I SOLVED IT
+
+For anyone who needs it. I was using vim-lsp-ale plugin which sends the output of vim-lsp to ale. Ale shows the diagnostics. I just removed vim-lsp-ale and specifically enabled ale only for eslint. That fixed the problem.",t3
+17xfid0,1,0.6,1,1,334,54,2023-11-17T13:51:33Z,"Everytime I use control in Vimgolf with another letter, it is counted as 2 keystrokes, for instance in my submission Ctrl A will appear as :
+
+`&lt;C-&gt;A...`
+
+And in other solutions it appears as 
+
+`&lt;C-A&gt;...`
+
+Making me lose one precious keystroke.
+
+I couldn't find this issue anywhere else, is anyone having similar problems ?",t3
+17xfh6a,90,0.84,14,90,0,0,2023-11-17T13:49:59Z,,t3
+17xc1c0,4,0.84,3,4,375,61,2023-11-17T10:21:06Z,"Hi,
+
+I have a vimscript command whose arguments I'd like to tab complete from the tokens in the current buffer ...
+
+E.g., "":DD num"", followed by tab, would complete to "":DD numpy"", where numpy is present in the buffer.
+
+I've looked in :h command-complete, but the correct completion list isn't obvious to me.
+
+&amp;#x200B;
+
+Any help, would be super appreciated.
+
+&amp;#x200B;",t3
+17xb3zq,5,1.0,9,5,525,91,2023-11-17T09:10:42Z,"I'm trying to play with the quickfix window. I'm trying to populate it with external commands. Currently I'm just trying `ls` but I get spurious characters. Depending on the command, even weird things happen such as new buffers are created (with names that resemble the content of the lines in the quickfix), a random item in the quickfix window is selected, etc.
+
+So to simplify, just by running `:cexpr system(""ls"") | copen` I get the result:
+
+```
+|| file1
+|| file2
+```
+
+Note those `||` characters. Where do they come from?",t3
+17wsl0a,6,0.56,1,6,0,0,2023-11-16T17:32:38Z,,t3
+17wsji3,0,0.37,31,0,2519,484,2023-11-16T17:30:56Z,"Before anything else I want to make it clear that I am a learner of Vim as of this moment, and I am a guy super focused on hotkeys and productivity all around my workflow.  (Ex Starcraft player too, so I know my shit around hotkeys, I guess) 
+
+As of right now, I see that one of the reasons that you would use vim is  speed and accessibility to common movements that your cursor do around the code that you are editing, AKA Vim motions.
+
+So one of the benchmarks that I was thinking of is assuming that a key press takes x seconds, and that is linear accross the number of keys that I press, how much keystrokes takes me to do X task using hotkeys on an editor like VSCode vs Vim. 
+
+And I do not see myself slow or using the mouse to often whenever I'm in any other development IDE, since I'm always into looking how can I maximize this task and do not use inconsistence mouse movements.
+
+And usually people that use Vim compared to a guy that does not know any hotkeys on their IDE, uses the scrollbar on the right side to get down the page, does not know cmd + p, clicks all the time he needs to jump between files and the terminal and the file tree, he will obviusly be MUCH slower overall. 
+
+Again, for me the selling point of having vim goes beyond your editor, and knowing more your OS more intricately, and it's tools. That alone it's a great learning experience and well worth for you to customize things the way that you want. 
+
+Hey you might have 9 fingers in your hand so you need your own remaps of hotkeys because the left shift it's to hard to reach, or anything related to that, that's power. 
+
+But that benchmark of keypresses to action it's not compeling enought at this moment that I'm going though my learning proccess. (That I did solelly on my head, and estimations are rought enought so I can favor to NOT learn any new hotkeys, being lazy at the end of the day, but with a fair point) 
+
+The sweet spot for me would be a conjuncting of Vim motions and my current setup. 
+
+I do prefer the search functionality inside vim, but going forward or backwards between words using f F t T looks so unnecessary, instead a cmd or \^ + right, left arrow should do the trick. It's not like it would matter to end up exactly on a character that I need to ( at least I do not see it that way), because if my screen is where I want to, clicking right there seems the same amount of time, as of pressing 3 keys to get to my word. 
+
+&amp;#x200B;
+
+Hope this generates a good discussion around this topic! 
+
+stay safe",t3
+17wp3e5,6,1.0,3,6,298,45,2023-11-16T15:07:26Z,"I'm trying to execute such grep using scripting in vim:
+
+    ""grep! --directories=recurse path/to/dir -e ""[\t]searchedWord""
+
+However it puts a literal tab in there because when I print an executed command, there is a `^I` sign instead of `\t`.
+
+Escaping it with additional backlash doesn't help.  
+",t3
+17wolz3,3,1.0,3,3,282,39,2023-11-16T14:46:38Z,"Take for instance, the binding
+
+&amp;nbsp;
+
+    nnoremap e0 :call EDefine()&lt;CR&gt;
+
+&amp;nbsp;
+
+I would like to use a ""get"" function in this manner:
+
+&amp;nbsp;
+
+    return s:get('e0')
+    "" the return value is a string of the command:
+    ""nnoremap e0 :call EDefine()&lt;CR&gt;""",t3
+17w1hbl,3,1.0,5,3,1557,237,2023-11-15T19:26:49Z,"Yet another hour of battles with netrw.
+
+Here is all of my netrw configs:
+```
+"" "" Netrw
+""
+"" set tree view and human-readable size style with 1024 base, turn off help banner
+let g:netrw_liststyle = 3
+let g:netrw_sizestyle = ""H""
+let g:netrw_banner = 0
+"" set vertical splitting for preview window ('p')
+"" set vertical splitting for previous window ('P') if there is only one window
+let g:netrw_preview = 1
+"" set right splitting instead of left for ('v')
+let g:netrw_altv = 1
+"" set below splitting instead of above for ('o')
+let g:netrw_alto = 1
+```
+
+And I also use 
+```
+set splitright
+set splitbelow
+```
+
+netrw_v and netrw_o work fine (splitting to the right). The problem is with preview and previous window commands. **I suppose that 'p' and 'P' should split to the right. But they split to the left.**
+
+help for g:netrw_preview:
+
+```
+ *g:netrw_preview*	=0 (default) preview window shown in a horizontally
+			   split window
+			=1 preview window shown in a vertically split window.
+			   Also affects the ""previous window"" (see |netrw-P|)
+			   in the same way.
+			The |g:netrw_alto| variable may be used to provide
+			additional splitting control:
+				g:netrw_preview g:netrw_alto result
+				         0             0     |:aboveleft|
+				         0             1     |:belowright|
+				         1             0     |:topleft|
+				         1             1     |:botright|
+			To control sizing, see |g:netrw_winsize|
+```
+
+What does it mean 'result'? Result for netrw-P and p? My variables correspond to the last row (1&amp;1). So why does it split to the left?",t3
+17vpwyw,2,0.75,5,2,210,36,2023-11-15T09:23:37Z,"Every now and then a ""Fugitive:"" folder appears in my repository. I use Fugitive for Git integration with Vim, but have no idea why these folders sometimes appear, nor do they contain anything useful. Any idea?",t3
+17vp220,3,1.0,5,3,275,46,2023-11-15T08:18:06Z,"What method should I use to create the function that would do the same thing as pressing the 'w' key in normal mode?
+
+    function MoveOneWord()
+        "" what should I call here?
+    endfunction
+
+Can the next word be captured from the cursor position using own vim function?",t3
+17vosem,3,1.0,5,3,643,111,2023-11-15T07:58:47Z,"So, this is my code, what I want to achieve is basically the second line. So, having all the code written, then go back to normal mode, go back of 1 char and then go to insert mode. The problem with the second like is that it doesn't actually behaves like a normal command. So I tried with the first line of code, but when I do so, I don't go back to insert mode for some reason. It writes everything as expected and goes back 1 char as well, but doesn't go back to insert mode. How do I fix it?
+
+    command! VimwikiImage execute ""normal! a{{file:./images/}}&lt;Esc&gt;hi""
+    "" :nmap :VimwikiImage &lt;Esc&gt;i{{file:./images/}}&lt;Esc&gt;hi",t3
+17vnl01,0,0.07,1,0,0,0,2023-11-15T06:31:48Z,,t3
+17vnkc4,0,0.33,6,0,1037,190,2023-11-15T06:30:37Z,"I use vim to write academic papers in LaTex. Out of habit, I use xxx as a placeholder.  This makes neovim freeze.
+
+I could post my config of course, but I wonder whether maybe someone has a general idea why this happens or a way to stop this behavior without going into the mess of my config. After all it happens in insert mode without any fancy stuff going on... Thanks
+
+SOLVED: ok, so u/xalbo suggested something wrong with a syntax file, which put me on the right track. I use a custom file for my autocomplete, where I have searched through documents relevant to my field beyond a certain length, which will then be suggested for autocompletion. There was an 'xxxxxxx' in there, which I deleted (I guess may habit of using xxxxx as placeholder has crept into the autocomplete). However, this did not fix the problem, but gave me a good idea. I use Ultisnips which -you guessed it- includes a snippet ""x"". Deleting it allows me to use xxx without the freezing. At least for now.
+
+So thanks for the input and have a nice day everyone.",t3
+17vm4i8,11,0.72,4,11,503,70,2023-11-15T04:59:17Z,"Hey all. A few days ago [I asked](https://www.reddit.com/r/vim/comments/17rnt8m/is_there_a_vim_port_of_denote/) if there were a Vim port of Emacs' [Denote](https://protesilaos.com/emacs/denote) package. No one answered, so I used ChatGPT to help me sling together a Vim plugin.
+
+Here it is: https://git.sr.ht/~ashton314/vim-denote
+
+Is it awful? Yes. Do you have a suggestion? Fork the repo, make a better one, and never speak of this abomination that I have created ever again.
+
+Thank you for your time.",t3
+17v54q7,7,0.7,0,7,1259,129,2023-11-14T15:50:16Z,"The Vim color scheme [**Tomorrow Night Deepblue**](https://github.com/jamescherti/vim-tomorrow-night-deepblue) is a beautiful deep blue variant of the Tomorrow Night color scheme. It is pleasing to the  eyes and is easy to read.
+
+The **Tomorrow Night Deepblue** colorscheme  features a deep blue background color that creates a calming atmosphere. It is also a  great choice for software developers who miss the blue themes that were trendy a  few years ago.
+
+# Installation
+
+The simplest way to install the theme is to copy the content of the file [**tomorrow-night-deepblue.vim**](https://github.com/jamescherti/vim-tomorrow-night-deepblue/blob/master/colors/tomorrow-night-deepblue.vim) to the directory **\~/.vim/colors/** .
+
+After that, you can activate the coloscheme from Vim by running the Vim command:
+
+    :color tomorrow-night-deepblue
+
+https://preview.redd.it/z2bfp13r0y0c1.png?width=1421&amp;format=png&amp;auto=webp&amp;s=84aa7342a42608e504deae5266542378d434d6b5
+
+# Links
+
+* [Tomorrow Night Deepblue @GitHub](https://github.com/jamescherti/vim-tomorrow-night-deepblue)
+* [Article by James Cherti: tomorrow-night-deepblue, a Vim color scheme with a deep blue background](https://www.jamescherti.com/vim-tomorrow-night-seablue-theme-color-scheme/)",t3
+17v28e9,8,0.61,29,8,117,6,2023-11-14T13:29:46Z,"Also any advice is appreciated!
+
+[https://github.com/jpjacobpadilla/.vimrc](https://github.com/jpjacobpadilla/.vimrc)",t3
+17ulz1a,0,0.43,8,0,251,47,2023-11-13T21:49:27Z,I started using **Vimium C**. Sometimes I go into command mode by accident and can\`t type on the textbox anymore without using my mouse to click on it again. Could someone tell me how to do this with the keyboard? I'm trying to avoid using the mouse ,t3
+17uhtju,1,1.0,15,1,424,74,2023-11-13T18:56:11Z,"As the title says. I've tried to make a simple macro that inserts a word, places a mark after that word, inserts another word and jumps back to the previous mark. 
+Can anyone tell me why this doesn't work? It just inserts the text ignoring the mark. Everything seems to work in vim compatible mode, though.
+My macro:
+```afoo^[maabar^[`a```
+
+For context i am using the vi build that's included by default in arch linux/ubuntu",t3
+17uay7l,84,1.0,4,84,30,6,2023-11-13T13:45:09Z,Just found that gem at work...,t3
+17uaf92,0,0.33,22,0,815,118,2023-11-13T13:16:51Z,"Right now I'm on the last stages of my ""DIY Freewrite project"": a single-purpose device for creative writing. For that I'm using a Waveshare eink screen and a Raspberry Pi 3B+ with Raspbian OS installed (with Desktop interface and LXTerminal). Of course, I'm using vim as my writing interface, with Goyo, vim-pencil and vim-fountain installed. The other plugin I'm using is gruvbox as a theme.
+
+However, when starting Goyo I get this view from my eink screen:
+
+https://preview.redd.it/4joff7bu740c1.jpg?width=4032&amp;format=pjpg&amp;auto=webp&amp;s=d95d4fb80d142afa0d6a36e64fb0f21e9a949e62
+
+I've managed to take the carots (\^'s) symbols changing the color to the highlight group StatusLineNC to white but I can't manage to do the same with the EOB's tildes or \~'s. Did someone have a similar problem?
+
+Thank you,",t3
+17u9l7b,21,0.93,5,21,291,42,2023-11-13T12:29:43Z,"For obvious reasons, there won't be a 2024 calendar version by Bram Molenaar (RIP). [Link to 2023 version](https://moolenaar.net/#Calendar)
+
+Is someone from the community continuing this tradition, maybe in memoriam Bram Molenaar? I have grown quite attached to this calendar over the years.",t3
+17u1e7m,9,0.84,17,9,165,26,2023-11-13T03:07:04Z,"Something that doesn’t just teach you the keybindings, but helps you practice using them in a useful way?
+
+Thanks.
+
+EDIT: Wow, tons of suggestions. Thanks everyone. ",t3
+17ti3qt,5,0.86,9,5,267,26,2023-11-12T11:08:09Z,"vim on windows  
+when i move my cursor through parenthesis it stops and show this error
+
+this only happen when syntax is on
+
+help plz  
+
+
+https://preview.redd.it/azuhzta1gwzb1.jpg?width=1536&amp;format=pjpg&amp;auto=webp&amp;s=b885e4f1dde242310be048366bd058118db32c82",t3
+17thv15,0,0.4,11,0,2830,347,2023-11-12T10:51:24Z,"    -- kickstart.nvim starts you with this. 
+    -- But it constantly clobbers your system clipboard whenever you delete anything.
+    
+    -- Sync clipboard between OS and Neovim.
+    --  Remove this option if you want your OS clipboard to remain independent.
+    --  See `:help 'clipboard'`
+    -- vim.o.clipboard = 'unnamedplus'
+    
+    -- So, meet clippy.lua (dont worry theres vimscript versions too)
+    
+    -- a collection of mappings to allow you to yank to clipboard using &lt;leader&gt;y
+    -- as well as a few nice paste options, and ctrl+a
+    -- in normal mode, it accepts motions as well.
+    vim.cmd([[
+        "" This function is what makes &lt;leader&gt;y in normal mode accept motions.
+      function! Yank_to_clipboard(type)
+        silent exec 'normal! `[v`]""+y'
+        silent exec 'let @/=@""'
+      endfunction
+      "" Im using nvim but I made this vimscript just for you.
+      nmap &lt;silent&gt; &lt;leader&gt;y :set opfunc=Yank_to_clipboard&lt;CR&gt;g@
+      vnoremap &lt;silent&gt; &lt;leader&gt;y ""+y
+      xnoremap &lt;silent&gt; &lt;leader&gt;y ""+y
+      nnoremap &lt;silent&gt; &lt;leader&gt;yy ""+yy
+      vnoremap &lt;silent&gt; &lt;leader&gt;yy ""+yy
+      xnoremap &lt;silent&gt; &lt;leader&gt;yy ""+yy
+      nnoremap &lt;silent&gt; &lt;leader&gt;Y ""+yy
+      vnoremap &lt;silent&gt; &lt;leader&gt;Y ""+yy 
+      xnoremap &lt;silent&gt; &lt;leader&gt;Y ""+yy
+      nnoremap &lt;silent&gt; &lt;C-a&gt; gg0vG$
+      vnoremap &lt;silent&gt; &lt;C-a&gt; gg0vG$
+      xnoremap &lt;silent&gt; &lt;C-a&gt; gg0vG$
+      nnoremap &lt;silent&gt; &lt;leader&gt;p ""+p
+      inoremap &lt;silent&gt; &lt;C-p&gt; &lt;C-r&gt;+
+      xnoremap &lt;silent&gt; &lt;leader&gt;P ""_dP
+    ]])
+    -- the lua versions I use usually.
+    -- vim.keymap.set(""n"", '&lt;leader&gt;y', [[:set opfunc=Yank_to_clipboard&lt;CR&gt;g@]], { silent = true, desc = 'Yank to clipboard (accepts motions)' })
+    -- vim.keymap.set({""v"", ""x""}, '&lt;leader&gt;y', '""+y', { noremap = true, silent = true, desc = 'Yank to clipboard' })
+    -- vim.keymap.set({""n"", ""v"", ""x""}, '&lt;leader&gt;yy', '""+yy', { noremap = true, silent = true, desc = 'Yank line to clipboard' })
+    -- vim.keymap.set({""n"", ""v"", ""x""}, '&lt;leader&gt;Y', '""+yy', { noremap = true, silent = true, desc = 'Yank line to clipboard' })
+    -- vim.keymap.set({""n"", ""v"", ""x""}, '&lt;C-a&gt;', 'gg0vG$', { noremap = true, silent = true, desc = 'Select all' })
+    -- vim.keymap.set('n', '&lt;leader&gt;p', '""+p', { noremap = true, silent = true, desc = 'Paste from clipboard' })
+    -- vim.keymap.set('i', '&lt;C-p&gt;', '&lt;C-r&gt;+', { noremap = true, silent = true, desc = 'Paste from clipboard from within insert mode' })
+    -- vim.keymap.set(""x"", ""&lt;leader&gt;P"", '""_dP', { noremap = true, silent = true, desc = 'Paste over selection without erasing unnamed register' })",t3
+17t7xrr,3,0.81,5,3,80,15,2023-11-12T00:13:16Z,Wondering if it support or at least there are some plugging to make this happens,t3
+17t0nx0,5,0.78,11,5,238,44,2023-11-11T18:37:42Z,"Like in the VScode, if we do `CMD+click` over a function in a file ( `ctrl + click` in windows), then it navigates to the root definition function. Can we have same functionality in the vim too? Also, is this possible without any plugins?",t3
+17sx7m8,0,0.5,4,0,586,91,2023-11-11T15:51:22Z,"**Hi geniuses**, can you say me what will be the abbreviation for paste in vimrc for get a square title using the digraphs respective, for example this abbr recua_ and get this 
+	┌─┐
+	│ │
+	└─┘
+so I can write after that something into
+
+	┌────────────────┐
+	│ title-note-txt │
+	└────────────────┘
+
+the sintax for vimrc will be something that....
+
+    iab: recuad_ enter tab Ctrolk+dr ctrol+hh  ctrol+ dl enter 
+    tab ctrolk+vv ctrolkvv enter
+    tab ctrolk+ud ctrolk+hh ctrlk ul enter
+    enter
+
+*will be possible an abbr using whiting abbr CtrolK digraphs?*
+
+**Thank you and regards!**",t3
+17sw4v5,15,0.79,18,15,809,133,2023-11-11T14:59:15Z,"In other editors, I have set up keyboard shortcuts that allow me to copy/cut/paste-over everything inside the closest surrounding ()s, including the ()s themselves—ditto for other punctuation like “”s. It seems like it should be easy to do something similar in vim, but I’m very new and haven’t figured it out. I can do:
+
+di{
+
+and this cuts everything inside the closest surrounding {}s, but it doesn’t touch the {}s themselves. In fact, it leaves a newline between them. 
+
+So I’m wondering if there’s an inclusive form of di{, or some other straightforward approach for doing this. 
+
+Thanks, and apologies if there’s an obvious answer here. 
+
+(Bonus question: Is there something like dt} that works across newlines?)
+
+EDIT: Thanks for all the quick responses. As I suspected, there was a very simple answer. ",t3
+17sd862,11,1.0,12,11,871,138,2023-11-10T20:39:28Z,"So, I had a few issues with the man program while  I code in C.
+
+**Problem:**
+
+1.) I kind of hate having the man page render in full screen window.
+2.) I have no interest in viewing a page concerning some shell utility with the same name.
+
+**Solution:** 
+
+1.) Set the `$COLUMNS` variable before the man command.
+2.) I specified the ordering I wanted the man pages to appear in.
+
+    setlocal keywordprg=COLUMNS=135\ man\ -s\ 3,2,7,5,1
+
+And I wrote this in my `~/.vim/after/ftplugin/c.vim` file, and I executed
+`:set ft=c` in a ""c"" buffer to activate the changes. Still I feel comfortable with switching from full screen to half screen window, but at least the text are formatted as they should be now, and I get to the correct manual section.
+
+Here are a great Reddit post with [keywordprg snippets](https://www.reddit.com/r/vim/comments/s4s3f7/some_keywordprg_snippets/)",t3
+17sbvhe,4,0.7,7,4,3829,343,2023-11-10T19:36:26Z,"The following code snippet enables the application of the **Tango Dark color scheme to Vim's built-in terminal**, ensuring consistent color settings even if you change the Vim color scheme using the :colorscheme command. The snippet uses autocmd to guarantee the persistence of the Tango Dark color scheme in the Vim terminal.
+
+To activate the Tango Dark color scheme within Vim's built-in terminal, add the following code to your `~/.vimrc`:
+```viml
+"" License: MIT
+"" Description: Improve the color scheme of Vim Terminal (Tango dark theme).
+"" Author: James Cherti
+"" Latest version: https://www.jamescherti.com/vim-tango-color-scheme-vim-terminal/
+
+"" Gnome-Terminal Tango Dark
+let g:terminal_ansi_colors_black = '#2E3436'
+let g:terminal_ansi_colors_darkred = '#CC0000'
+let g:terminal_ansi_colors_darkgreen = '#4E9A06'
+let g:terminal_ansi_colors_brown = '#C4A000'
+let g:terminal_ansi_colors_darkblue = '#3465A4'
+let g:terminal_ansi_colors_darkmagenta = '#75507B'  "" dark purple
+let g:terminal_ansi_colors_darkcyan = '#06989A'  "" dark turquoise
+let g:terminal_ansi_colors_lightgrey = '#D3D7CF'
+let g:terminal_ansi_colors_darkgrey = '#555753'
+let g:terminal_ansi_colors_red = '#EF2929'
+let g:terminal_ansi_colors_green = '#8AE234'
+let g:terminal_ansi_colors_yellow = '#FCE94F'
+let g:terminal_ansi_colors_blue = '#729FCF'
+let g:terminal_ansi_colors_magenta = '#AD7FA8'  "" purple
+let g:terminal_ansi_colors_cyan = '#34E2E2' "" turquoise
+let g:terminal_ansi_colors_white = '#EEEEEC'
+
+"" Text and background: Gnome dark
+let g:terminal_ctermbg = 'black'
+let g:terminal_ctermfg = 'white'
+let g:terminal_statuslineterm_ctermbg = 'black'
+let g:terminal_statuslineterm_ctermfg = 'white'
+let g:terminal_statuslinetermnc_ctermbg = 'black'
+let g:terminal_statuslinetermnc_ctermfg = 'white'
+let g:terminal_guibg = '#000000'
+let g:terminal_guifg = '#D0CFCC'
+let g:terminal_statuslineterm_guibg = g:terminal_guibg
+let g:terminal_statuslineterm_guifg = g:terminal_guifg
+let g:terminal_statuslinetermnc_guibg = g:terminal_guibg
+let g:terminal_statuslinetermnc_guifg = g:terminal_guifg
+
+function! SetTerminalColorScheme() abort
+  if !has('terminal')
+    return
+  endif
+
+  let g:terminal_ansi_colors = [
+        \ g:terminal_ansi_colors_black,
+        \ g:terminal_ansi_colors_darkred,
+        \ g:terminal_ansi_colors_darkgreen,
+        \ g:terminal_ansi_colors_brown,
+        \ g:terminal_ansi_colors_darkblue,
+        \ g:terminal_ansi_colors_darkmagenta,
+        \ g:terminal_ansi_colors_darkcyan,
+        \ g:terminal_ansi_colors_lightgrey,
+        \ g:terminal_ansi_colors_darkgrey,
+        \ g:terminal_ansi_colors_red,
+        \ g:terminal_ansi_colors_green,
+        \ g:terminal_ansi_colors_yellow,
+        \ g:terminal_ansi_colors_blue,
+        \ g:terminal_ansi_colors_magenta,
+        \ g:terminal_ansi_colors_cyan,
+        \ g:terminal_ansi_colors_white
+        \ ]
+
+  execute printf(
+        \ 'highlight Terminal ctermbg=%s ctermfg=%s guibg=%s guifg=%s',
+        \ g:terminal_ctermbg, g:terminal_ctermfg, g:terminal_guibg,
+        \ g:terminal_guifg
+        \ )
+  execute printf(
+        \ 'highlight StatusLineTerm ctermbg=%s ctermfg=%s guibg=%s guifg=%s',
+        \ g:terminal_statuslineterm_ctermbg, g:terminal_statuslineterm_ctermfg,
+        \ g:terminal_statuslineterm_guibg, g:terminal_statuslineterm_guifg
+        \ )
+  execute printf(
+        \ 'highlight StatusLineTermNC ctermbg=%s ctermfg=%s guibg=%s guifg=%s',
+        \ g:terminal_statuslinetermnc_ctermbg, g:terminal_statuslinetermnc_ctermfg,
+        \ g:terminal_statuslinetermnc_guibg, g:terminal_statuslinetermnc_guifg
+        \ )
+endfunction
+
+if has('terminal')
+  augroup TerminalColorScheme
+    autocmd!
+    autocmd ColorScheme * call SetTerminalColorScheme()
+    autocmd VimEnter * call SetTerminalColorScheme()
+  augroup END
+
+  call SetTerminalColorScheme()
+endif
+```",t3
+17s9x0b,0,0.45,4,0,2630,384,2023-11-10T18:06:58Z,"The Vim plugin **[Hjklmode](https://github.com/jamescherti/vim-hjklmode)** can be used to:
+- **Learn HJKL navigation:** Hjklmode forces you to learn HJKL navigation as it disables certain keys that require moving the hand away from the Touch Typing position, which can disrupt typing flow. These keys include: Backspace, Arrows, Insert, Delete, Home, End, Page Up and Page Down.
+- **Add HJKL navigation to other modes than Normal Mode:** Hjklmode adds the key mappings \&lt;Alt&gt;+hjkl to Insert Mode, Command Mode, and Terminal Mode.
+
+Vim’s popularity is largely due to its ability to increase productivity through efficient navigation and editing techniques. One such technique is HJKL navigation, which allows using the H, J, K, and L keys to move the cursor left, down, up, and right. This method of navigation may seem strange at first, but it is actually a very efficient way to navigate through text and can greatly increase productivity when using Vim.
+
+## Installation
+
+Here is how to install Hjklmode using Vim's built-in package manager (Vim 8 and above):
+
+```shell
+mkdir -p ~/.vim/pack/vim-plugins/start
+cd ~/.vim/pack/vim-plugins/start
+git clone --depth 1 https://github.com/jamescherti/vim-hjklmode
+vim -u NONE -c ""helptags vim-hjklmode/doc"" -c q
+```
+
+You can also install this Vim plugin with any third-party plugin manager such as Pathogen or Vundle.
+
+## How to enable Hjklmode manually?
+Run the following Vim command within Vim:
+```viml
+:HjklmodeEnable
+```
+
+## How to enable Hjklmode by default?
+
+Add the following to `~/.vimrc`:
+```viml
+"" Disable the menu bar because it may prevent you from using the Alt key
+set guioptions-=m
+
+"" Enable Hjklmode by default
+let g:hjklmode_enabled = 1
+
+"" It is recommended to not disable the Escape key.
+"" Disabling the Escape can cause issues with macros.
+let g:hjklmode_disable_escape = 0
+```
+
+## How can I move the cursor, press Escape or Backspace when Hjklmode is enabled?
+```
+| Key mapping  | Equivalent to
+|--------------|---------------------------------------------------
+| Ctrl-[       | Escape (American English keyboard)
+| Ctrl-C       | Similar to Escape (check *:help i_CTRL-C*)
+| Ctrl-h       | Backspace
+| Ctrl-j       | Enter
+| Ctrl-m       | Enter
+| Ctrl-i       | Tab
+| Ctrl-f       | Page down
+| Ctrl-b       | Page up
+| h            | Left
+| j            | Down
+| k            | Up
+| l            | Right
+```
+
+## Related links
+- [Hjklmode @GitHub](https://github.com/jamescherti/vim-hjklmode)
+- [Article by James Cherti: Master the HJKL navigation with the Vim plugin Hjklmode](https://www.jamescherti.com/vim-plugin-hjklmode-hjkl-navigation-all-vim-modes/)",t3
+17s0l3k,11,0.92,8,11,264,46,2023-11-10T09:43:38Z,"What should be the **Path** setting in the VIM, so that one can find any file from the whole project irrespective of the current location?  
+I just got to know about the `set path=.,**` setting but this searches only in the current directory and its subdirectories",t3
+17rnt8m,2,0.67,1,2,0,0,2023-11-09T21:39:59Z,,t3
+17rm32b,2,0.75,5,2,1063,164,2023-11-09T20:22:23Z,"I just did a fresh reinstall of [CoC](https://github.com/neoclide/coc.nvim), on a newer version of Neovim. I'm now seeing something I hadn't seen before, which CoC calls ""inlay hints"". They look like this:
+
+[CoC inlay hints](https://preview.redd.it/y9di37i6rdzb1.png?width=1080&amp;format=png&amp;auto=webp&amp;s=61fbf1f6bc7b341b7f62dcee10b7c05eeb0b0760)
+
+I'm not sure how to interact with them, though. These are suggested type hints. Is there any way I can tell CoC to accept the suggestions? They use some display mechanism that doesn't allow editing them. You can't even get a cursor over them. They don't interact with the completion mechanism or anything else that I can find. There's nothing in the CoC FAQ about them, and `:help coc-inlayHint` only discusses how to enable/disable them and the highlight groups they use.
+
+I'd love to be able to use this information in some way. If I manually type in exactly what the hint displays, then the hint goes away, but I feel like there must be a way to have CoC use the hint without my having to type it myself.",t3
+17rlqal,4,0.75,21,4,358,64,2023-11-09T20:05:48Z,"Hey,
+
+while cursor being on closing parentheses is there any better way rather than using `dF&lt;space&gt;` to delete `aaa` without entering the insert mode?
+
+`(something aaa)`
+
+I tend to avoid backward F/T motions as they require more brain cells to be processed
+
+one way is to `wdt)` but that i have to go back word which seems to be a waste of key storkes",t3
+17rgh1m,0,0.17,1,0,0,0,2023-11-09T16:13:25Z,,t3
+17rdq12,10,0.73,76,10,85,9,2023-11-09T14:07:59Z,"it's very important for me to know.
+
+[View Poll](https://www.reddit.com/poll/17rdq12)",t3
+17r9rfa,27,0.89,14,27,1679,251,2023-11-09T10:06:37Z,"Recently i started using marks as my primary method to navigate the codebase(mainly the global/file marks). So i made the decision i want to use my leader key to initialize the jumps.   
+
+
+Since i still use lowercase letters for my regular binds after leader activation. I knew i couldn't just map the leader key to the single quote. Instead, i just decided to bruteforce it by using these types of mappings instead:
+
+    keymap.set(""n"", ""&lt;leader&gt;A"", ""'A"", optsTable({ desc = ""Mark A"" }))
+    keymap.set(""n"", ""&lt;leader&gt;B"", ""'B"", optsTable({ desc = ""Mark B"" }))
+    keymap.set(""n"", ""&lt;leader&gt;C"", ""'C"", optsTable({ desc = ""Mark C"" }))
+    keymap.set(""n"", ""&lt;leader&gt;D"", ""'D"", optsTable({ desc = ""Mark D"" }))
+    keymap.set(""n"", ""&lt;leader&gt;E"", ""'E"", optsTable({ desc = ""Mark E"" }))
+
+I don't think it's the most efficient way but i was impatient and it also allowed me to use the = expressions in my substitute command which i personally enjoy. Do tell me if there was a better way.  
+
+
+So back to the \\= expression evaluator:
+
+Initially i started by pasting this 26 times from lines(48 .. 73):
+
+    keymap.set(""n"", ""&lt;leader&gt;A"", ""'A"", optsTable({ desc = ""Mark A"" }))
+
+  
+And then i ran this substitute command:
+
+    :48,73s/A/\=nr2char(char2nr(""A"") + line('.') - 48)/g
+
+  
+Just Perfect. And to explain the expression:  
+
+
+    char2nr(""A"")
+
+Converts the character 'A' to its numeric representation.  
+
+
+    line('.') - 48
+
+Gets the current line number and subtracts 48 to adjust for the corresponding letter code.  
+
+
+    nr2char(...)
+
+Converts the result back to a character.  
+
+
+And the global flag replaces at each instance. so Simple yet so Perfect.",t3
+17qsc5s,12,0.83,4,12,8743,1367,2023-11-08T18:40:00Z,"I posted this to the Neovim sub, but I thought people might be interested here too. The only difference is going to be the mapping syntax appropriate for your .vimrc instead of a lua file.
+
+I know it's not what most people would consider a Vim Clutch, but foot pedals are a silly addition to software centered around keyboard motions. But reading about Vim Clutches got me thinking about better ways to enter and exit modes. So here's what I did. Because simply remapping Caps to Esc is way less complicated, and therefore, way less good.
+
+# What this Config does
+
+## Key Mapping Info
+
+* I used CapsLock for this because it's one of my least used keys, and the most annoying if accidentally pressed.
+* I remapped to F9, an unused key in Vim/Nvim that doesn't seem to be used in most other web browsers or other applications I use. Although you should be able to use just about any other unused key. Unfortunately, it seems that Vim/Nvim doesn't like to map to any of the F13-F24 keys which would be handy.
+* I used 'a' to enter Insert mode over 'i' for a few reasons, toggling back and forth doesn't make the cursor move backward, doing a quick toggle to paste puts the cursor after the content you pasted instead of behind the last character, and I find myself trying to hjkl or $ quickly to the end of a line more frequently than to the beginning.
+* I use Esc to enter normal mode, and exit Visual and Command modes. It seems to work well.
+* CapsLock is re-mapped to RAlt+CapsLock because I almost never use RAlt, and it still seemed convenient and appropriate.
+* I configured this on Arch, Kmonad is cross-platform though.\
+* Why not use QMK? Tbh I haven't played around much with QMK beyond mapping a few shortcuts to the Fn key on my desktop keyboard through VIA. I'm not sure if it is as powerful with controlling tap-and-hold features, or in general. But more importantly, this allows me to use basically the same config for my laptop, which doesn't have QMK.
+
+## Insert Mode
+
+* Tapping enters Normal mode
+* Holding enters Normal mode and returns to Insert mode on release. You can enter any normal mode commands you would like.
+
+## Normal Mode
+
+* Tapping enters Insert mode
+* Holding enters Insert mode and then returns to Normal mode on release
+
+## Visual Mode
+
+* If entered from Insert mode tapping returns to Insert mode, holding returns to Insert mode on press and Normal mode on release
+* If entered from Normal mode tapping returns to Normal, holding returns to Normal mode on press and Insert mode on release
+
+## Command Mode
+
+* Tapping enters Normal mode
+* Holding enters Normal mode on press and Insert mode on release
+
+# Installation
+
+There's a bunch of info on installing and configuring Kmonad. And I'm not one to write something that's already been written, so here's some links I found helpful:
+
+* [Kmonad Github page](https://github.com/kmonad/kmonad) including install and config info
+* [A tutorial from the Emacs sub](https://www.reddit.com/r/emacs/comments/oyzfz9/kmonad_and_the_power_of_infinite_leader_keys/) with some nicely distilled info pulled from the Kmonad docs and more. Pay attention to the part at the beginning about configuring groups and udev rules.
+* [A really good starter tutorial on Youtube](https://www.youtube.com/watch?v=Dhj1eauljwU) from Gavin Freeborn. I really appreciate him doing this. There's not a ton of tutorial info for Kmonad, and this got me going and interested much quicker than just digging through the docs off the bat.
+
+# My Config
+
+## Kmonad
+
+This is my .kbd config. Some quick and dirty notes are that syntax is Lisp-like, a ;; is a line comment (a single ; is interpreted as the ; key) and #/ and |# start and end block comments. You basically want to lay your config out as visually representing your keyboard. I'm not actually clear on whether the exact layout matters, I'm fairly certain you can omit keys. Definitely omit any Fn keys, as those are passed directly to your keyboard, not the system. (defcfg) is where you configure Kmonad for your system, if you have a plugin keyboard it should be easiest to find under ""/dev/input/by-id"", if you have a laptop keyboard you'll find it under ""/dev/input/by-path"". (defsrcc) should be your keyboard layout as it exists, (defalias) is where your going to define the behavior of your alias keys that you re-map, the first (deflayer) is the main layer that Kmonad will apply when running, and any other (deflayer) can be accessed through alias re-mappings.
+
+    (defcfg
+      ;; For Linux
+      input  (device-file ""/dev/input/by-id/usb-Keychron_Keychron_K2_Pro-event-kbd"")
+      output (uinput-sink ""My KMonad output""
+        ;; To understand the importance of the following line, see the section on
+        ;; Compose-key sequences at the near-bottom of this file.
+        ""/run/current-system/sw/bin/sleep 1 &amp;&amp; /run/current-system/sw/bin/setxkbmap -option compose:ralt"")
+      cmp-seq ralt    ;; Set the compose key to `RightAlt'
+      cmp-seq-delay 5 ;; 5ms delay between each compose-key sequence press
+    
+      ;; For Windows
+      ;; input  (low-level-hook)
+      ;; output (send-event-sink)
+    
+      ;; For MacOS
+      ;; input  (iokit-name ""my-keyboard-product-string"")
+      ;; output (kext)
+    
+      ;; Comment this if you want unhandled events not to be emitted
+      fallthrough true
+    
+      ;; Set this to false to disable any command-execution in KMonad
+      allow-cmd true
+    )
+    
+    
+    (defsrc
+      esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  ssrq ins del
+      grv   1    2    3    4    5    6    7    8    9    0    -    =     bspc   pgup
+      tab    q    w    e    r    t    y    u    i    o    p    [    ]     \     home
+      caps    a    s    d    f    g    h    j    k    l    ;    '        ret    end
+      lsft     z    x    c    v    b    n    m    ,    .    /       rsft   up   pgdn
+      lctl lmet lalt           spc                      ralt    rctl left down  rght
+    )
+    
+    
+    (defalias
+       vim (tap-hold 150 f9 (tap-macro-release f9 f9))
+       ralt (layer-toggle ralt)
+    )
+    
+    
+    (deflayer main
+      esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12  ssrq ins del
+      grv   1    2    3    4    5    6    7    8    9    0    -    =     bspc   pgup
+      tab    q    w    e    r    t    y    u    i    o    p    [    ]     \     home
+      @vim    a    s    d    f    g    h    j    k    l    ;    '        ret    end
+      lsft     z    x    c    v    b    n    m    ,    .    /       rsft   up   pgdn
+      lctl lmet lalt           spc                      @ralt    rctl left down rght
+    )
+    
+    
+    (deflayer ralt
+       _   _    _    _    _    _    _    _    _    _     _    _    _    _    _   _
+       _    _    _    _    _    _    _    _    _    _    _    _    _      _      _
+       _     _    _    _    _    _    _    _    _    _    _    _    _     _      _
+      caps    _    _    _    _    _    _    _    _    _    _    _         _      _
+       _       _    _    _    _    _    _    _    _    _    _       _      _     _
+       _   _    _               _                        _       _     _   _    _
+    )
+
+## Neovim Config
+
+Now just add these mappings to your Neovim config and everything should be working.
+
+    -- Vim Clutch
+    map(""n"", ""&lt;F9&gt;"", ""a"", { desc = ""Vim Clutch"" })
+    map(""i"", ""&lt;F9&gt;"", ""&lt;Esc&gt;"", { desc = ""Vim Clutch"" })
+    map(""v"", ""&lt;F9&gt;"", ""&lt;Esc&gt;"", { desc = ""Vim Clutch"" })
+    map(""c"", ""&lt;F9&gt;"", ""&lt;Esc&gt;"", { desc = ""Vim Clutch"" })
+
+This is how I have it set up right now. There might be a better key to use than F9, but it seems to be working well so far. There's obviously a ton more here you can do with Kmonad, but I should probably get back to doing my homework.
+
+**Edit:** Another quick note. I thought I'd share quickly how I got Kmonad to run as a service since it took me a minute. I took this [systemd service file](https://github.com/kmonad/kmonad/blob/master/startup/kmonad%40.service) from and modified it a bit. Partially because I wanted it to run the .kdb that was in my dotfiles folder, and frankly because I don't know exactly how ""%E/kmonad/%i.kbd"" is choosing which .kdb to use.
+
+ Create this .service file and after editing the appropriate path for your .kdb (and obviously the path for Kmonad if you installed it elsewhere), save it in your systemd folder as kmonad.service:
+
+    [Unit]
+    Description=kmonad keyboard config
+    
+    [Service]
+    Restart=always
+    RestartSec=3
+    ExecStart=/usr/bin/kmonad /home/YOUR_USER/.kmonad_desktop.kbd
+    Nice=-20
+    
+    [Install]
+    DefaultInstance=config
+    WantedBy=default.target
+
+Then just
+
+    systemctl enable kmonad.service
+    systemctl start kmonad.service",t3
+17qgi5r,42,0.66,13,42,69,13,2023-11-08T07:32:46Z,I found this funny powder at my local Albert Heijn in the Netherlands,t3
+17q78hz,0,0.37,47,0,355,42,2023-11-07T23:02:01Z,"I've attached a screenshot of a scenario in which I want to select 'word' that's 19 lines above the cursor.
+
+I cannot imagine this selection to be performed faster with a keyboard than with a mouse.
+
+Or am I missing something?
+
+https://preview.redd.it/91uhqcwib0zb1.png?width=390&amp;format=png&amp;auto=webp&amp;s=ec472c72022b764b0ff40341a981e7c3cfa29561",t3
+17q73os,2,1.0,5,2,521,77,2023-11-07T22:56:21Z,"I only use vim. However, the other day I had to use Jetbrains Rider and I really liked it's theme called 'Base16 Monokai'. Can anyone please tell me if VIM has a theme that looks just like this? I have tried a few Monokai themes but have not found any yet.  
+
+
+I don't know why, but the screen shot is a little darker than it really is. The font is much brighter in the rider. 
+
+&amp;#x200B;
+
+https://preview.redd.it/8tpb6zzaa0zb1.png?width=1051&amp;format=png&amp;auto=webp&amp;s=22c13a507bf93cd1a881cde0573459a408f8d407",t3
+17q6isp,1,1.0,5,1,759,151,2023-11-07T22:31:17Z,"When I grab a block to copy or move elsewhere, a habit I use is to mark the current line, jump to last line I want to yank, move one line lower and yank.
+
+This fails if the end line is the last line of the file. Sometimes I'll remember and add a newline before closing the yank group I've captured, but this is hacky. 
+
+The sequence of commands I'm using for example is 
+ma$%jy`a
+
+- ""ma"" mark 'a'
+- ""$"" jump to last line of a method declaration (eg to an open brace)
+- ""%"" jump to closing brace paired with that open brace
+- ""j"" move a line down
+- ""y`a"" yank everything since my mark 'a'
+
+The habit is so ingrained with me now. The ""j"" I need burns me whenever I work on relatively tidy code that lacks superfluous whitespace at the end of the file. 
+
+Thanks!",t3
+17pxyp5,0,0.28,41,0,1011,199,2023-11-07T16:21:01Z,"i was trying to see find why i feel slow while doing web development (react)
+
+i tried coding react on vscode it just feels much faster and relaxing to do than doing it on vim 
+
+but when i write code in C / C++ the speed in which i code in vim is insanely faster than vscode 
+
+writing kernel codes in C/C++ is just so relaxing in vim that i never opened vscode since i got to college
+
+i asked my mentor he said that vim wasn't made for writing web development code hence it's always better to code in vscode for web development. idk if he's right but he's quite smart guy.
+
+i want to continue in vim but the speed at which i'm coding react right now is terrible ,I feel tensed while coding even basic react components in vim for me it just feels like vim motions aren't made for the task of web development or react specifically
+
+Idk if i'm just paranoid or there are people who feel the same 
+
+what should i do is there a plugin to make learning and coding react better
+
+even CSS and JS make me feel slow in vim",t3
+17pxtto,9,0.67,18,9,2517,482,2023-11-07T16:14:58Z,"⚠️ This is a very NOOB post.
+
+Hi everyone! I'm looking to get into vim. I'm a long-time VSCode user and consider myself pretty quick with it since I'm already used to a lot of shortcuts that I'm able to use only the keyboard 90% of the time. I don't even know where to start finding alternatives for them on NeoVim. As far as I know, NeoVim boasts it can do all the features but ""mouseless"", and that's really cool if I can learn those.
+
+I tried the VSCode Vim extension and there were a lot of very difficult things to do (like even just opening and closing the sidebar). Maybe it's just the extension's bottleneck of having to support both Vim and VSCode features at once.
+
+Because of that, I thought I should just jump into NeoVim right away. All I really know with vim so far are the ""hjkliweb"" keys. In order to cut my learning curve a bit, I'm hoping you guys could share your knowledge if you know any of the familiar features of VSCode on NeoVim:
+
+* Ctrl + D (Selecting All Instances of a Selection in the file)
+* Alt + Shift + ArrowKeys (Duplicate Up/Down)
+* Ctrl + Tab (Switch to Last File Opened)
+*  Ctrl + W (Close a File currently opened)
+* Ctrl + B - (Opening and Closing Sidebar, immediate ick for me that it doesn't work with the VSCode Vim extension since I was so used to it, do you guys have an alternative way of browsing the file tree at least?)
+* Ctrl + F (How do you guys search for text in files?)
+* Ctrl + Shift + F (Find text in any file, I use this a LOT)
+* Ctrl + Shift + O (Finds symbols in any language, like ""Find"" but jumps to different variable declarations, function declarations, etc. I don't use it a lot but might be useful).
+* Ctrl + G (Go to line number)
+* Ctrl + P (Find File Name)
+* Ctrl + Shift + P (This is mostly just VSCode, but is there a bread-and-butter way to like search up commands on NeoVim)
+* Shift + Alt + H (Show Call Hierarchy, list of which lines and files a particular function was called)
+* Shift + Alt + F12 (Find All References, List of Files that use a particular variable/function)
+* Extension: Git Graph (I use this VSCode extension almost extensively to navigate my commits on different branches, I can't imagine doing this on the terminal, but maybe I'll get used to it, how do you guys usually do it? I'm hoping it's not just \`git log\`).
+* Extension: Git Lens (I usually only use this for seeing git blame per line, comparing files on a commit/branch basis, and a nice CLI for dropping/picking interactive rebase)
+
+Thanks in Advance Vim Veterans! ✨",t3
+17pxdvp,45,0.83,154,45,200,40,2023-11-07T15:54:58Z,"I love VIM , but is use is only in my hobby activity because I’m not a programmer. 
+How many programmers use VIM at work like main editor? And are they only 50 years older or also in Yang programmers?",t3
+17pwta5,0,0.36,5,0,210,27,2023-11-07T15:29:20Z,"anyone here knows editing can you edit this wallpaper: [https://wallhaven.cc/w/453xz9](https://wallhaven.cc/w/453xz9)   
+to have HJKL chilling in there while the AWSD and arrow keys are shown to be fighting.  
+",t3
+17pqo23,3,1.0,4,3,485,74,2023-11-07T09:41:12Z,"I have such grep command
+
+`:grep! --directories=recurse ./path/to/dir -e ""struct MyStruct[^A-Za-z]""`
+
+and it does not match anything despite the fact that I have such a definition in the searched dir:
+
+    struct MyStruct 
+{
+}
+
+The below grep works correctly
+
+`:grep! --directories=recurse ./path/to/dir -e ""struct MyStruct""`  
+
+
+How do I fix my first grep to not match any 'struct MyStruct' ending with some other characters but match 'struct MyStruct' that ends with a new line sign?",t3
+17peqfz,0,0.41,19,0,0,0,2023-11-06T22:13:56Z,,t3
+17p5pna,25,0.81,8,25,379,73,2023-11-06T15:48:32Z,"I love vim. I can finally say that I can efficiently use vim. I’ve been using it pretty heavily for a few years now. Today while having to make quick edits to my PhD qualifying paper in LaTeX (I love LaTeX too), I noticed how efficient I’ve become. 
+
+Even if LLM’s or some other model become better than us at programming or writing in general, I’ll be in vim doing what I enjoy.",t3
+17p4j0b,1,1.0,1,1,540,96,2023-11-06T14:54:53Z,"Seems like a useful plugin, but it is quite anoying that i can't really use a normal tab as well.
+
+somebody else using a supertab and what did you implement to make it more useful?
+
+&amp;#x200B;
+
+for clarification, I would like that tab would open the window for autocompletion, but also that when pressing tab the second time would make a normal tab instead of scrolling the list of autocomplete possibilities.  
+is there any way to do it? 
+
+I checked the supertab man,  but not really versed enough in the syntax to implement what i want.",t3
+17oz5rc,6,1.0,4,6,587,115,2023-11-06T09:40:57Z,"Using vim in git bash on a windows machine. Was viewing some code for a C# program written to run on windows. The .cs file has CRLF line endings but I noticed when I went to edit the file in vim any new lines I added use unix line endings instead of dos. Anyone know how to fix this? My assumption was that any new lines I added would be using the same line endings as whatever the file currently had. I checked the fileformat option when opening the file and it's set to unix. Tried setting it to dos but that doesn't seem to change anything, new lines still don't use dos line endings.",t3
+17odmhq,5,0.73,12,5,758,133,2023-11-05T14:56:01Z,"I sometimes end up with 50+ tabs opened (lol), and lose a lot of time searching for the ""previous tab"" I was just at, or the tab before that... so I made a quick little extension [here](https://addons.mozilla.org/en-US/firefox/addon/vimtab/).
+
+Basically, press the hotkey to open it (default Ctrl+Alt+A), and it opens a popup which keeps an internal state of ""previously visited tabs"" which are each macro'd from 0-9 and a-z, so you can jump to, say, the previous tab with 0, or the tab before that with 1, all the way to z. You can also search tabs with / or scroll through them with j/k. 
+
+So far, I've had a significant efficiency-boost, but I'm unsure if the idea is even ""practical"", so I wanted someone to give it a quick test. Feedback is appreciated!",t3
+17obel9,1,0.6,10,1,290,55,2023-11-05T12:58:11Z,"I've installed Hyprland. I was editing waybar's config file in Vim and copied a user's config file's text from github but I can't paste it to Vim. In normal mode I press ""p"" but it doesn't paste it. 
+
+That's probably a silly question and probably has a basig solution but I am new to Vim...",t3
+17o9m1f,179,0.94,25,179,224,37,2023-11-05T11:08:46Z,"I need some Vim old stuff help... My palmtop beauty need some viminit file or something to set the screen 40x16 characters 240x128 pixels monochrome... It's perfect for me! Lotus 123 , solver, Calc.. so please! (⁠◠⁠‿⁠・⁠)⁠—⁠☆",t3
+17o27m4,2,0.67,3,2,400,64,2023-11-05T02:27:21Z,"in my vimrc file i have:noremap &lt;F9&gt; &lt;ESC&gt; :w &lt;CR&gt; :!g++ -fsanitize=address -std=c++17 -DONPC -O2 -o %&lt; % &amp;&amp; ./%&lt; &lt; inp&lt;CR&gt;
+
+but when i hit f9 it says "" '.' is not recognized as an internal or external command, operable program or batch file.""
+
+&amp;#x200B;
+
+whats the problem here?
+
+Also, I would appreciate, if there is, a better command to run cpp programs",t3
+17o0en9,3,0.71,6,3,86,20,2023-11-05T00:55:20Z,im in windows and i dont know where do i create the vimrc file and how do i create it.,t3
+17nrqfg,0,0.5,11,0,971,168,2023-11-04T18:21:25Z,"Before I started using Vim, I didn't really like code autocompletion. I just found that editing small errors was more tedious than just typing myself. It recently dawned on me that I haven't really had the same frustrations anymore when using Vim.  
+
+
+Flash forward to a trial with github's co-pilot. It feels like my productivity has been supercharged. The autocompletion suggestions with co-pilot aren't always what I'd like to use, so I find myself making changes \~50% of the time. I feel like this type of editing is exactly what Vim is best geared towards: small adjustments to a wall of code. I have heard mixed feedback about co-pilot because people find that they spend more time adjusting the code than if they had written it in vanilla. I could totally understand those frustrations if I had to switch to my mouse to make the adjustments.  
+
+
+Is anyone else having similar experiences? I feel like tools like co pilot might bring on the next wave of Vim users.",t3
+17nr61x,1,0.57,7,1,1031,179,2023-11-04T17:56:23Z,"Hi Vim lovers,
+
+I'm working on creating a VIM-based educational game, and I'm looking for a library that can help me manage text navigation and implement VIM-like changes based on programatically provided input. I want to pass an input text and use API functions that simulate VIM commands like ""j,"" ""k,"" ""l,"" ""h,"" ""w,"" ""W,"" etc., to manipulate the cursor's position within the text. Later, I'd like to retrieve the cursor's position based on the sequence of events.
+
+While one option is to build this functionality from scratch, I'm hoping to find an existing library that can save me from reinventing the wheel. I've attempted to dive into the VIM and pyvim source code, but they can be quite complex for me to decipher. I also spent some time looking at Python's prompt\_toolkit but couldn't figure out a way to achieve this.
+
+The programming language is not a limiting factor in this search. Do any of you know of a library or tool that could assist me in this endeavor?
+
+Thank you in advance for your insights and suggestions!",t3
+17nhyik,14,0.84,3,14,1715,218,2023-11-04T09:26:34Z,"[vim-popped](https://github.com/kennypete/vim-popped) provides commands that use Vim’s [popup window](https://vimhelp.org/version8.txt.html#new-popup-window) functionality.
+
+One, illustrated below, produces a popup window of `buffers` or `buffers!`, which I find useful. The green annotation explains why.
+
+[\&lt;Leader\&gt;\&lt;S-b\&gt;](https://preview.redd.it/ry7ooqq0fayb1.png?width=645&amp;format=png&amp;auto=webp&amp;s=fa19484c2b583158ae0e86a1ef91cc26ddcf0ad5)
+
+Another, the `gA` popup window I particularly like. It displays lots of information about the character(s) under the cursor. So, e.g., if you want to know `ga` and/or `g8` information and maybe want to know the highlight group too.... Well, you'll get the value of this:
+
+[gA](https://preview.redd.it/n4739xewkayb1.png?width=751&amp;format=png&amp;auto=webp&amp;s=3c30ff8c3ee75600b2d57233a19293ed50daebf5)
+
+The README and help files explain these, and the rest, in detail.
+
+Popup windows don't get much airtime in r/vim. Whether that's because people don't know about/care about them, not many plugins use them, or whatever, I thought it was worth sharing this. (I'd built these over time in my .vimrc but, when tidying it, moved them to a plugin, so there you have it.)
+
+More incidental points are that it has vim9script and vimscript covered (dependent on the version of Vim being used, though at least version 8.2 with patch 3434 is needed). That may be of interest to some of you too because it uses vim9-mix (though not using `if !has('vim9script')`).
+
+(*Note, if you're a Neovim user, this form of popup window is unavailable because* `popup_*` *builtin functions are exclusive to Vim. That's happening more as their development diverges.*)",t3
+17nh4hp,1,1.0,0,1,682,99,2023-11-04T08:22:47Z,"I'm a bit annoyed at this big autocmd I have
+```vim
+augroup trim_whitespace
+  autocmd!
+  "" Trim trailing whitespace on save (circumvent with :noautocmd w)
+  function! TrimWhitespace()
+      let pos = getpos(""."")
+      %s/\s\+$//e
+      call setpos(""."", pos)
+  endfunction
+  autocmd BufWritePre * :call TrimWhitespace()
+augroup END
+```
+
+This is a (ugly) oneline version
+```vim
+autocmd BufWritePre * let pos = getpos(""."") | %s/\s\+$//e | call setpos(""."", pos)
+```
+
+Is it possible to achieve the cursor recovery with some kind of wrapper function?
+
+Would be cool is there was as substitute flag to recover cursor `p`osition:
+
+```vim
+autocmd BufWritePre * %s/\s\+$//ep
+```
+
+Other ideas?",t3
+17nb0cm,2,1.0,16,2,397,70,2023-11-04T01:47:07Z,"Hi Everyone,
+
+I have written a few custom commands and am pleased with the results. 
+
+Is there a method of returning a message to the user?  For example, if you use the built-in command for find/replace, you will get user feedback as a substitution count. 
+
+I can’t find any documentation on how this would be achieved with my custom `command` or if it is even possible without writing a function.",t3
+17n1klj,24,0.73,13,24,0,0,2023-11-03T18:27:09Z,,t3
+17n1h0q,16,0.9,27,16,389,72,2023-11-03T18:22:32Z,"I am entering close to 1 week of using NeoVim after a painful setup. Now I want to learn how to efficiently navigate and use it, but as a newbie I find that some things that were completely natural to me anywhere else is difficult to understand in NeoVim (e.g. pane switching).
+
+Since you have started using Vim, what has been the most helpful thing you've learned in relation to using it?",t3
+17myvq4,5,1.0,3,5,2872,388,2023-11-03T16:23:37Z,"Hey, everyone! I recently started working on adding support for an obscure language (APDL) to VIM. I started from some existing code ([https://github.com/ettaka/vim-apdl](https://github.com/ettaka/vim-apdl)) and so far I have made some changes, but there is one issue I can't understand.
+
+In APDL we have some multiline commands, meaning that after a command is called (`*msg`, for instance), the next line is presumed to be a format line (Fortran or C format are allowed). To syntax highlight this format line correctly I therefore need to look at the previous line, see if it's calling one of a few existing multiline commands.
+
+What's currently happening is that this highlight is behaving in a weird way. If I pass through the format line with the cursor, the highlighting turns on (when going up with `k`) and off (when going down with `j`). See the gif below for a demonstration.
+
+&amp;#x200B;
+
+[Syntax highlighting turns on and off as I pass with the cursor by the format line](https://i.redd.it/582kn6hwr5yb1.gif)
+
+Below is a simplified version of the syntax file `apdl.vim` (I've omitted boilerplate stuff for brevity). Can anyone tell me what's going on here? What should I be doing differently?
+
+    syn match  apdlString	display ""\v'[^']*'""
+    
+    syn match apdlGetFunction display ""\v&lt;chrval\ze\(([^,]*,){0}[^,]*\)""
+    syn match apdlFunction display ""agen\&gt;"" contained
+    syn match apdlParameterSubstitution display ""\v\%[ _a-zA-Z0-9]*\%""
+    
+    "" multiline commands
+    syn match apdlFormatLine "".*$"" contained
+    syn match apdlBeforeLine "".*\n"" contained nextgroup=apdlFormatLine transparent
+    syn match apdlFunction ""\*msg\&gt;"" contained nextgroup=apdlBeforeLine
+    
+    "" commands must be the first entry in a line or behind an $
+    syn cluster	apdlToken contains=apdlFunction
+    syn match	apdlStart1	""\$"" nextgroup=@apdlToken skipwhite transparent
+    syn match	apdlStart2	""^"" nextgroup=@apdlToken,apdlGetFunction,apdlString skipwhite transparent
+    
+    syn match	apdlComment	""!!.*$""
+
+Once this issue is solved, I have a follow up question regarding how to implement a case in which there is more than one format line (when the format line ends in %/&amp;).
+
+&amp;#x200B;
+
+I'm a beginner with VIM/vimscript, so I'm sorry if I'm asking silly questions! I thank you all in advance!
+
+&amp;#x200B;
+
+EDIT #1: sorry, I forgot to mention I'm using neovim v0.9.1 on Windows 10.
+
+EDIT #2: this even simpler version of the `apdl.vim` file generates the same issue:
+
+    if exists(""b:current_syntax"")
+      finish
+    endif
+    
+    syn match apdlFormatLine "".*$"" contained
+    syn match apdlBeforeLine "".*\n"" contained nextgroup=apdlFormatLine transparent
+    syn match apdlFunction ""\*msg\&gt;"" nextgroup=apdlBeforeLine
+    
+    hi def link apdlFunction   Function
+    hi def link apdlFormatLine Special
+    
+    let b:current_syntax = ""apdl""",t3
+17mxjet,2,1.0,3,2,415,73,2023-11-03T15:24:08Z,"I recently learnt about cscope for vim, I have already built vim from source and have my vimrc set up, now if I want to rebuild it using enable cscope flag will my settings remain? How do I go about this?
+
+Also I've been wanting something that gives snippets/autocompletes a function or goes to definition from included files for not just c but most supported languages, is there an app/plug-in like that?
+
+
+THANKS!",t3
+17muiy9,0,0.5,10,0,372,59,2023-11-03T12:59:04Z,"I create an alias to convert the md file to html, and put this alias to .zshrc
+
+alias makemd=""cmark \~/mdFiles/arch\_configuration.md &gt; \~/mdFiles/index.html""
+
+Then update with ""source .zshrc"".
+
+From terminal evereting works fine, but when I try to run it from vim using "":!makemd"" I get an error saying me: zsh:1: command not found: makemd
+
+I have also tried rebooting",t3
+17mrnzt,8,0.73,11,8,651,104,2023-11-03T10:05:42Z,"I've noticed that when I try to select or to yank a quoted string together with quotes (for example by ressing va"") it yanks the whitespaces before the opening quote. It's very annoying because usually I do this to copy a string literal from one place and paste it to the other where I have completely different formatting (e.g. from an array of string constants to a fuction invocation). Whitespaces usually just break the formatting and I always need to delete them manually. Why does it happen and is there any way to prevent vim to copy those leading whitespaces?
+
+See the example:
+
+[https://asciinema.org/a/618998](https://asciinema.org/a/618998)",t3
+17m2af4,0,0.5,0,0,0,0,2023-11-02T12:24:00Z,,t3
+17m0r8a,3,0.81,14,3,383,72,2023-11-02T10:50:25Z,"The function is over 10K lines long, and using shift+5 key (or %) is not jumping to correct matching brace, and sometimes not jumping at all. It is c++ code, and there is no invalide code, as it is compiling and running fine in production env.
+
+Please help
+
+Edit: I realised there might be extra bracket that is commented and vim isn't ignoring it.
+It may not be related to file size",t3
+17lz6z3,24,1.0,20,24,147,29,2023-11-02T08:57:16Z,"Windows does not have the ""uniq"" tool, so I'm wondering if Vim can count the number of unique lines in a text file, natively, much like ""uniq -c"" ?",t3
+17lf643,27,0.96,3,27,212,3,2023-11-01T15:50:44Z,"&amp;#x200B;
+
+https://preview.redd.it/k140porrcrxb1.png?width=2100&amp;format=png&amp;auto=webp&amp;s=768e701dd4b485ad972e5206446b314f1bf25956
+
+[https://github.com/devsjc/vim-jb](https://github.com/devsjc/vim-jb)",t3
+17lf0ln,1,1.0,2,1,1155,160,2023-11-01T15:43:51Z,"Hi,
+
+I wrote my first vim plugin you can check it out here:
+
+[https://github.com/wnim/UVM-Log-Focus/](https://github.com/wnim/UVM-Log-Focus/) (The demo here might be clearer than the code)
+
+Code:
+
+[https://github.com/wnim/UVM-Log-Focus/blob/main/log.vim](https://github.com/wnim/UVM-Log-Focus/blob/main/log.vim)
+
+For our purpose let's say that all that it does, is when I open a file that ends with `sim.log`, it opens another horizontal window (Named `SearchTerms`) and displays some information there.
+
+&amp;#x200B;
+
+I can't seem to get rid of 2 unwanted behaviors.
+
+1. When I open a sim.log file that already has some content, I get this text from vim:
+
+&amp;#x200B;
+
+    ""SearchTerms"" [New]  
+    4 fewer lines  
+    press ENTER or type command to continue  
+
+and I really wish I could get rid of this behaviour.This doesn't happen on every linux machine, only on some of them :/
+
+&amp;#x200B;
+
+2. The cursor starts on `SearchTerms` window instead of the ""sim.log"" windows
+
+&amp;#x200B;
+
+My attempt to solve issue ""2"" was to put inside the function `SetFoldexprWin` `wincmd w` which didn't work, or `execute(""normal \\&lt;C-w&gt;j"")` also didn't work.",t3
+17l63ey,14,0.82,12,14,610,110,2023-11-01T06:39:45Z,"i understand that
+* `""1p` brings back the last line delete,
+* `u` undoes the restore,
+* `""1p` again brings back the same last line delete,
+* `u` undoes that restore,
+
+and this can continue indefinitely to keep bringing back the same last line delete only to undo the restore.
+
+i’m confused because if you use `.`, which i understand repeats the last command, in place of `""1pu`, which would be the command repeated, it starts behaving differently and instead cycles through the last 9 line deletes. how does it know to bring back the second line delete the second time, the third one the third time, and so on?",t3
+17l34ny,1,0.67,2,1,325,52,2023-11-01T03:21:49Z,"For a project, I want to make a program that works with Vim commands themselves. In order to do this, I need a program that takes a string and a Vim command and outputs the resulting text.
+
+For example:
+
+vim\_string\_processor(""Hello World"", ""ea Vim&lt;Esc&gt;"") would evaluate to ""Hello Vim World"".
+
+&amp;#x200B;
+
+Thank you.",t3
+17l2wxm,5,0.86,5,5,690,98,2023-11-01T03:10:16Z,"When I open a Terminal buffer or a QuickFix buffer, sometimes I accidentally press &lt;C-\^&gt; or :cnext or some other command while in the window of Terminal buffer that changes the Terminal buffer or something else.
+
+When I make a Terminal buffer, I want that window to always be that Terminal buffer until the window is closed. Same with the QuickFix buffer/window, I never want to accidentally change it over into another buffer. How do I ""protect"" certain windows so that they don't accidentally get changed into something else?
+
+&amp;#x200B;
+
+Update: For anyone using Neovim, [https://github.com/stevearc/stickybuf.nvim](https://github.com/stevearc/stickybuf.nvim) works beautifully!",t3
+17kx6u2,0,0.31,15,0,454,68,2023-10-31T22:25:51Z,"Vim is more than just a text editor; it's a way of life for many enthusiasts who appreciate its unique approach to text editing. Its speed, efficiency, customizability, ubiquity, minimalistic design, scripting capabilities, and dedicated community all contribute to its undeniable coolness. If you're willing to invest the time to learn Vim, you'll discover a powerful tool that can transform your text editing experience into something truly remarkable.",t3
+17kpxsf,6,1.0,3,6,521,80,2023-10-31T17:07:45Z,"I have this mapping for viewing jumps:
+
+```
+nnoremap &lt;silent&gt; &lt;leader&gt;j        :ju&lt;Enter&gt;
+```
+
+Usually, my jump list is very long and the output of the `:jumps` command gets ""paginated"". I press `G` manually to get to the bottom of the jumplist which is where the most recent jumps are. (I then use `[count]&lt;C-o&gt;` to jump back somewhere).
+
+How do I have the effect of `G` included in the mapping?
+
+This doesn't seem to work:
+```
+nnoremap &lt;silent&gt; &lt;leader&gt;j        :ju&lt;Enter&gt;G
+```",t3
+17kk42a,0,0.5,0,0,439,71,2023-10-31T12:41:28Z,"as in title, I get error for header file as I was using c++ although I'm writing a c project. found on internet 2 solutions:
+
+ let g:c\_syntax\_for\_h=1
+
+and
+
+ augroup project   autocmd!   autocmd BufRead,BufNewFile \*.h,\*.c set filetype=c.doxygen augroup END
+
+I tried them both, and from the status line I see cpp changed into c, so error checking should be applied correctly, but I keep getting the same c++ related errors and warnings.",t3
+17k8bz3,25,0.79,15,25,418,66,2023-10-31T00:31:47Z,"https://github.com/Shougo/dpp.vim
+
+If you don't want to configure plugins, you don't have to use the plugin manager. It does not work with zero configuration. You can use other plugin managers.
+
+dpp.vim is extensible and minimal plugin manager.
+It is written by both Deno and Vim script.
+
+The minimal means real minimal.  It does not implement lazy loading, install and other fancy features.  But it can be extensible.",t3
+17jkv50,21,0.77,31,21,705,134,2023-10-30T03:57:20Z,"I really only have one use for vim. Journaling and note taking. 
+I'm no coder. I wish to maybe learn Python one day for fun however coding will never be a job for me or a thing I do daily.
+Instead however I'm quite creative with writing and I'd like to use vim for several things.
+Note taking, journaling, and creative writing.
+I already know about vimwiki. I installed it with vimplug. I got neovim working with it... But other then vimplug. Wiki. And enabling markdown. My vim config is empty.
+
+Where do I start? What plugins do I use? Is there a premade vim setup made for writers?? 
+Any of you guys and gals also like me? A non coder who just writes for fun?? Any and all advice would be very helpful.",t3
+17jf1xc,0,0.43,2,0,506,86,2023-10-29T22:56:20Z,"I'm trying to modify the highlighting colors for nvim's spell check, but I can't seem to get it to work. I've tried in my options.lua file as a test \`vim.cmd(""highlight SpellBad cterm=bold gui=bold guisp=Red"")\`, as well as with other error types like SpellLocal, SpellRare, and SpellCap. 
+
+I'm not sure whether the command is correct, or if I'm placing it in the correct place. In the end, I'd like for all error types to be bolded and highlighted with red, orange, cyan and yellow respectively. Any help",t3
+17jbf1h,2,1.0,2,2,86,16,2023-10-29T20:09:43Z,YCM doesn't recognize any c++20 code. How do I change the C++ version support for YCM?,t3
+17j8d4a,29,0.76,10,29,141,2,2023-10-29T17:50:26Z,"&amp;#x200B;
+
+https://preview.redd.it/iaciqll9j6xb1.png?width=928&amp;format=png&amp;auto=webp&amp;s=563f3a2d57a6bbf2dc511528e28b6dc8470380e4",t3
+17j7hfa,13,0.78,25,13,65,14,2023-10-29T17:09:49Z,"What are the resources?
+And if you don't mind how to fold a code?",t3
+17iwdcw,0,0.5,22,0,617,124,2023-10-29T05:47:25Z,"I took a linux foundation course and in that they introduced me to vim and to me , it seemed like a pretty good way to get good at syntax because I have to do all of the hard work rather than relying on intellisense. 
+
+I tried to install linux for using vim but my pc has some bitlocker bullshit so I couldn't install it so I downloaded vim on windows 
+
+So far I'm only aware of writing files and exiting vim. The course did tell me some vim commands but there were too many of them.
+
+So how do I get started?
+
+Is Vim suitable for large scale development or only for C?
+
+and What other benefits do I get by using vim?",t3
+17ittyh,3,0.8,8,3,386,66,2023-10-29T02:59:12Z,"Hi Everyone, 
+
+Preface: I am a Vim using on my Linux box. I recently found an app that lets me run a stripped down Linux on my iPhone, which allows me access to Vim.  Productivity type activities, example: lists and checklists are a pain without a proper keyboard. 
+
+Question: Anyone recommend any checklist mods? I see a number of GitHub projects. Curious to hear people’s experiences.",t3
+17itgbw,10,1.0,2,10,310,57,2023-10-29T02:37:23Z,"For example, the vim completion list will show 5 options. Rather than pressing down 5 times to get the 5th option, I'd like to just press '5' and have it be chosen. I've been tinkering around with feedkeys(), but nothing I am doing is working.
+
+&amp;nbsp;
+
+Do you guys have any suggestions on what I could try?",t3
+17it8ce,8,0.91,3,8,0,0,2023-10-29T02:24:30Z,,t3
+17ipbsm,12,1.0,5,12,282,49,2023-10-28T22:53:20Z,"Features like marks, command history, registers, set commands, search history or anything else you are aware of. 
+
+If I close Vim and reopen, what history do I have to work with to get right back into what I was working on? Specifically state that is saved automatically by default.",t3
+17if43b,2,0.63,8,2,408,80,2023-10-28T14:37:36Z,"I have a HTML file that sorts images in a gallery format. In order to add images I have to go in and edit all the different fields for the details of each image which is very time consuming.
+
+Is it possible to write a script with VIM that will ask for inputs and then automatically combine them with html code and insert it into the website html? Are there any resources on how to do this? Thanks in advance.",t3
+17i9wmp,12,1.0,21,12,1122,179,2023-10-28T09:14:08Z,"For example, let's say I have this code:
+
+    const array = [];
+          ^
+    console.log(array)
+
+    const array = [];
+    console.log(array)
+
+    const array = [];
+    console.log(array)
+
+    const array = [];
+    console.log(array)
+
+And my cursor is at the first word `array`. What I want to do is to change the word ""array"" to something else and do the same for ""array"" on the line below it. Then, do the same proecess for every other one of them, so I get something like this
+
+    const names = [];
+    console.log(names)
+
+    const people = [];
+    console.log(people)
+
+    const list = [];
+    console.log(list)
+
+    const idk = [];
+    console.log(idk)
+
+What's the best way to do this? What I've done is `ciw` `names` `jll.` and did the same thing for every other paragraph. In this case it's not a huge problem because it's just a few lines. I know I can do something like `*cgn&lt;Word-to-type&gt;.` but it doesn't really fit my needs because if I did that on the first code it would look something a bit like this
+
+    const array = [];
+    console.log(changed)
+
+    const changed = [];
+    console.log(array)",t3
+17i7x8r,30,0.86,78,30,11,3,2023-10-28T06:44:28Z,mine is vi(,t3
+17hqebw,4,0.7,16,4,626,118,2023-10-27T15:41:41Z,"Hi, i have a problem.
+
+I have been using vim for some time and i have become one with it (maybe not fully yet, more like 0.7 with it). But the problem i keep having is that im so adapted to vim, that i cant type normally anymore. For example every time i write in Apple notes or even here, i would love the ability to use vim commands.
+
+Why stop at using vim only in the terminal?
+
+Im thinking about creating an app that allows the use of vim controls in every textfield on mac.
+
+**My only question to you is - would an app that does the appeal to you?**
+
+are you in?
+
+Thanks!
+
+[View Poll](https://www.reddit.com/poll/17hqebw)",t3
+17hd6wn,5,1.0,5,5,122,25,2023-10-27T02:19:25Z,"how to get Tmuxifier session editor to open nvim instead of nano?
+
+ps: i wanted to post in r/tmux but it said i can't post",t3
+17hb8w0,0,0.33,8,0,20,4,2023-10-27T00:38:37Z,My eye balls hurt...,t3
+17gxe5f,9,1.0,5,9,306,7,2023-10-26T14:09:19Z,"working
+
+https://preview.redd.it/qaxpkr011kwb1.png?width=562&amp;format=png&amp;auto=webp&amp;s=b59a75eebfd52c87ea4b39f1b77fda312042f713
+
+not working
+
+&amp;#x200B;
+
+https://preview.redd.it/c0tex5i41kwb1.png?width=635&amp;format=png&amp;auto=webp&amp;s=0bf02a3be0f6bc1ec34c8cdbfab119e0b762d1d2
+
+&amp;#x200B;",t3
+17gl5xf,5,0.86,0,5,3039,245,2023-10-26T01:39:05Z,"Has anybody managed or got an idea how to make [SonarLint Language Server](https://github.com/SonarSource/sonarlint-language-server) work with e.g. [vim-lsp](https://github.com/prabirshrestha/vim-lsp)?
+
+There's flag `-stdio`, so it should be now possible - as proven by Neovim plugin [sonarlint.nvim](https://gitlab.com/schrieveslaach/sonarlint.nvim).
+
+So taking that plugin as an example, I've extracted the server from [SonarLint for Visual Studio Code](https://github.com/SonarSource/sonarlint-vscode), created myself a wrapper:
+
+    #!/usr/bin/env sh
+    DIR=/path/to/extracted/extension
+    java -jar ""$DIR""/server/sonarlint-ls.jar \
+        -analyzers ""$DIR""/analyzers/* \
+        ""$@""
+
+And registered server in _vimrc_:
+
+    if executable(""sonarlint-ls"")
+      au User lsp_setup call lsp#register_server(#{
+            \   name: ""SonarLint"",
+            \   cmd: [ ""sonarlint-ls"", ""-stdio"" ],
+            \   root_uri: {-&gt; lsp#utils#path_to_uri(
+            \     lsp#utils#find_nearest_parent_file_directory(
+            \       lsp#utils#get_buffer_path(),
+            \       [ "".git/"" ]
+            \     )
+            \   )},
+            \   allowlist: [ ""python"" ],
+            \ })
+    endif
+
+So according to promo video [SonarLint for Python: How to Get Started](https://www.youtube.com/watch?v=pAz9O_N1Vs8) when opening Python file:
+
+    def foo():
+        a = 10
+        b = 10
+        print(a is b)
+
+I should get a hint to replace `is` with `==`, but nothing happens, despite server running.
+
+Fresh log from vim-lsp is quite empty:
+
+    Thu 26 Oct 2023 03:31:25 CEST:[""lsp#register_server"",""server registered"",""SonarLint""]
+    Thu 26 Oct 2023 03:31:25 CEST:[""s:on_text_document_did_open()"",1,""python"",""/home/user/repo"",""file:///home/user/repo/foo.py""]
+    Thu 26 Oct 2023 03:31:25 CEST:[""Starting server"",""SonarLint"",[""sonarlint-ls"",""-stdio""]]
+    Thu 26 Oct 2023 03:31:25 CEST:[{""response"":{""data"":{""__data__"":""vim-lsp"",""lsp_id"":1,""server_name"":""SonarLint""},""message"":""started lsp server successfully""}}]
+    Thu 26 Oct 2023 03:31:26 CEST:[""s:update_file_content()"",1]
+    Thu 26 Oct 2023 03:31:26 CEST:[{""response"":{""data"":{""path"":""file:///home/user/repo/foo.py"",""__data__"":""vim-lsp"",""filetype"":""python"",""server_name"":""SonarLint""},""message"":""textDocument/open sent""}}]
+    Thu 26 Oct 2023 03:31:29 CEST:[""lsp#register_server"",""server registered"",""SonarLint""]
+    Thu 26 Oct 2023 03:31:29 CEST:[""s:on_text_document_did_open()"",1,"""",""/home/user/.local/state/vim"",""file:///home/user/.local/state/vim/lsp.log""]
+    Thu 26 Oct 2023 03:31:31 CEST:[""s:on_text_document_did_save()"",1]
+    Thu 26 Oct 2023 03:31:31 CEST:[{""response"":{""data"":{""path"":""file:///home/user/repo/foo.py"",""__data__"":""vim-lsp"",""server_name"":""SonarLint""},""message"":""---&gt; ignoring textDocument/didSave. not supported by server""}}]
+    Thu 26 Oct 2023 03:31:33 CEST:[""s:on_text_document_did_open()"",1,"""",""/home/user/.local/state/vim"",""file:///home/user/.local/state/vim/lsp.log""]
+    Thu 26 Oct 2023 03:31:39 CEST:[""s:on_text_document_did_close()"",1]",t3
+17gj9r6,32,1.0,13,32,0,0,2023-10-26T00:03:24Z,,t3
+17g8h4k,9,0.92,10,9,834,146,2023-10-25T16:14:58Z,"I was editing a file in Vim and then noticed that all the numbers in the file had been reduced by one. So, 1000 was 999, and 2 was 1, 0 was -1, etc.
+
+I want to know what I did wrong to make that happen, and I know that I had redone something with control-r, so it probably has something to do with that.
+
+When I look at the Vim history (using : and up arrow, and also in the .viminfo file) it is missing all the commands I executed on that day, so I can't find it there.
+
+I found this online  [How to perform arithmetic manipulations on numbers in Vim? - Stack Overflow](https://stackoverflow.com/questions/3807464/how-to-perform-arithmetic-manipulations-on-numbers-in-vim) , and I may have done something similar to that, but I can't replicate those instructions.
+
+Does anyone know what I may have pressed to reduce all numbers by 1?",t3
+17g3ree,2,1.0,5,2,363,67,2023-10-25T12:36:37Z,"When comparing results I need to compare sorted lines of numbers.
+
+I put the wanted result in one buffer, and my result in the other.
+
+When doing \`:windo diffthis\` some lines will be missing (say 20 in 30k).
+
+I want only those lines that are missing in the other buffers as they are the special cases that need further investigation.
+
+Is there a way to do that?",t3
+17g3bb9,3,1.0,5,3,296,44,2023-10-25T12:12:42Z,"Hi, when I'm trying to do such search 
+
+`:grep! --directories=recurse ./path/to/dir1 ./path/to/dir2 -e ""class A|struct B""`
+
+I'm getting:
+
+`/bin/bash: -c: line 0: unexpected EOF while looking for matching \`""'`
+
+`/bin/bash: -c: line 1: syntax error: unexpected end of file`
+
+What am I doing wrong?",t3
+17fz9kh,18,0.95,28,18,484,86,2023-10-25T07:28:12Z,"A while ago I read about a guy who posted this sweet feature: `:b`  and hit `tab` to display all the current buffers.
+
+I found it lovely and I decided to add a keybinding to it. However, it was a bit more complex than expected, but now it's done and to prevent others to go through my same issues, I decided to share my solution (at this point I may uninstall `BufSelect` plugin):
+
+    set wildcharm=&lt;tab&gt;
+    nnoremap &lt;leader&gt;b :b &lt;tab&gt;
+
+I hope that you like it! :)",t3
+17fz4xm,4,0.84,5,4,449,75,2023-10-25T07:18:22Z,"I prefer black background in terminal, including when using Vim. I find myself on a host that has Vim 9. When I launch Vim, it's using a gray background. See this [screenshot](https://imgur.com/a/72jd9X1).
+
+I tried playing with various colour schemes, but no matter what I choose, the background remains always gray.
+
+FWIW, I'm using the same vimrc that I use on all other Vim 8.x installations. How can I change its background colour back to black.",t3
+17ftai4,0,0.37,28,0,220,44,2023-10-25T01:31:08Z,"guys I'm curious, I bought a 3070 and I'm wondering if it is able to run Vim, however, can you guys tell me if I should buy a 4090?
+
+Heard some rumors that Vim makes 4090 overheat and can cause serious damage to property",t3
+17ffelc,47,0.95,55,47,167,26,2023-10-24T15:24:50Z,"20% of the VIM commands(motions, operators, text objects etc.) that are sufficient to accomplish 80% of editing tasks as a developer(or an IT professional in general).",t3
+17fee5d,6,1.0,8,6,456,86,2023-10-24T14:40:05Z,"Hello,
+One thing I am sorely missing in vim is just typing ""Tuple"" and an automatic menu to select what I mean and then put ""from typing import Tuple"" near the top level imports.
+
+And to do so with my code, 3rd party code and builtins.
+
+This is the best feature of Pycharm I never could replicate in vim even with hours of YCM and other plugins. 
+
+Does this feature work for anyone?  
+
+Otherwise vim is awesome of course and I love the scriptability of it.",t3
+17fd9lo,10,0.68,47,10,339,70,2023-10-24T13:48:53Z,"tbh i am a really noob coder, and i like vim (i use nvim kickstart but still), and i see some people saying something like ""you can't use vscode on a server"" so by server they mean an OS that is only a terminal with no gui? 
+
+and if they are on this ""server"" to fix a problem do they import their configs every time or just use vanila vim?",t3
+17fazdl,2,0.56,30,2,306,58,2023-10-24T11:54:18Z,I am tired of the steep learning curve of vim. I wanted to get good with the key-bindings and plugins because many servers running linux have vi/m. I have enough work as such and I don't want to keep digging Vim manuals.  Let me get back to vim after I try something which has compassion for new users.    ,t3
+17er4bt,9,0.8,31,9,292,58,2023-10-23T18:18:05Z,"When I press Tab in a non vim editor it immediately indents or adds 4 spaces traditionally.
+Since I started using vim, i have to go into i sert mode and then press tab to add indent or 4 spaces. My question is how do you add tab(ident pr 4 spaces)at the current cursor pointer in normal mode?",t3
+17epukn,3,1.0,6,3,926,170,2023-10-23T17:22:58Z,"Hi people !
+
+In ubuntu's CLI (using WSL but that's not important), whenever I need to get out from insert mode or visual mode or anything, I press Escape once and it just works. It has always worked so ridiculously well that I never suspected it could mess up one day.
+
+&amp;#x200B;
+
+Until the day I installed vim on windows, set PATH variable to C:/Program Files (x86)/Vim/vim1.0/, opened powershell, and wrote `vim main.cpp` to make a test.  
+
+
+The escape key just does weird things. It seems to act like an Alt key, but when I press it 4 or 5 times it finally escapes the insert mode but writes many weird character in the bottom where you usually write :w for example (yeah i don't know what's that section name).  
+
+
+I've looked in google and found many suggestions such as ctrl+j or remaping jj or whatever. I don't want all these, I just need my old sweet Esc key to work as I'm used to.  
+
+
+Anyone can help me? \*sob\*",t3
+17eff69,16,0.82,36,16,246,49,2023-10-23T08:20:59Z,"Do you have one? If so, is it worth having? Where did you buy it from? I was thinking about getting one but all I can see on the interwebs are projects build from raspberry pis etc., I'm looking for something prebuilt as I'm not a hardware guy ;)",t3
+17e27rg,0,0.26,50,0,248,47,2023-10-22T20:17:15Z,"Hello everyone
+
+seen lot of people talking about it for years, never used it
+
+why would i use it instead of a regular IDE like VS code?
+
+some people mentioned it speedup things..to what extent? how much time can it really save if you are an expert?",t3
+17dm0c0,2,1.0,2,2,389,56,2023-10-22T05:24:41Z,"I start using [\_hyperscript](https://hyperscript.org/) recently and I pretty like it. But it has one little problem: NO SYNTAX HIGHLIGHT IN VIM both on `&lt;script type=""text/hyperscrpt""&gt;` and on `_` attribute.
+
+So how can one create and custom highlight for the `script` tag and the `_` attribute in VIM for html filetype?
+
+![No highlight for script and \_](https://imgur.com/YFqtwy0)",t3
+17dbo7p,7,0.77,20,7,311,55,2023-10-21T20:30:36Z,"As far as I can tell, most yank operations move the cursor to the beginning of the yanked region. This includes, for example, `yiw`, `yap`, etc.
+
+But this is not true for `yy` or `y&lt;count&gt;j` or `y&lt;count&gt;k`. Why is that?
+
+It's not a problem for me, per se, but just wondering what the reason(ing) is.",t3
+17daljt,60,0.95,77,60,245,51,2023-10-21T19:40:14Z,I want to switch to vim full time but I am currently just stuck on vscode with vim bindings. I can’t for the life of me figure out how to get used to not having a file tree. What are some things yall do when working with multiple files and such?,t3
+17ctltb,0,0.5,12,0,164,30,2023-10-21T03:42:08Z,"I'm a junior developer that can't use VScode in his computer  because it's very weak. I wanna learn vim/neovim but I like to now these answer, before I do something",t3
+17cgsx5,54,0.82,14,54,141,2,2023-10-20T17:34:17Z,"&amp;#x200B;
+
+https://preview.redd.it/9x08dc8o7evb1.png?width=560&amp;format=png&amp;auto=webp&amp;s=8d7ae010911eef616f4304c4419a09ece3531867",t3
+17ceeak,3,0.8,10,3,669,129,2023-10-20T15:48:09Z,"Hey, I’d appreciate some advice. I have been using VIM bindings for a year in vscode but every time I try setup neovim I get frustrated because I cant search for keywords quickly enough across files. What should I look into and learn?
+
+My workflow with vscode is as follows, I open a root directory, call it “./git”, and within this there are many repos that I jump back and forth and I look for keywords in vscode with cmd+search tools. I have also set files to not search through, like .yml, .md etc. It works okay, but I have to use a mouse to move between search hits which is a drain on milliseconds.
+
+How do I setup a similar workflow in vim? I need to be faster.",t3
+17cdcqq,29,0.94,7,29,316,59,2023-10-20T15:02:14Z,"I was today years old when I found out I can navigate my YouTube Music playlists with standard Vim keybindings.
+
+h = Seek backwards 10 seconds
+
+j = Next song
+
+k = Previous song
+
+l = Seek forward 10 seconds
+
+It's actually pretty amazing the effect that Vi has had on the world, whether the general public realizes it.",t3
+17cd0yg,0,0.45,17,0,346,66,2023-10-20T14:48:18Z,"i want to always run neovim in emacs?
+
+this is because vim motions are amazing and i love the vim as text editor better than what emacs feels 
+
+but just the fact that emacs has so many extentions makes it amazing 
+
+what would be issues i might face while running neovim in emacs and using things like emacs macros  to do most stuff the emacs way?",t3
+17ccypm,1,0.6,7,1,572,109,2023-10-20T14:45:27Z,"viper mode emulates vim environment
+
+i have not personally tried it but i feel that it might be the best to use environment as it would give us best thing in both worlds 
+
+&amp;#x200B;
+
+i just want to ask why should i use vim if i can have viper mode in emacs?
+
+i might be wrong to ask this because i have not personally tried it but i'm a long user of vim 
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+these are something i wonder while watching my teacher code in emacs
+
+i love using vim but when i look at the speed at which (pro)emacs users code i feel significantly slower than them ",t3
+17bys3z,24,0.85,29,24,1673,302,2023-10-20T00:59:30Z,"So, I'm working my way into a new job. I never touched VIM before this year (gasp, I know) and didn't start getting decent at it til about a month ago. I can get around files decently, use substitutions, and a few other things, and slowly things are getting faster.
+
+My new workplace REQUIRES VIM - as in the VMs we use for work don't have any other text editors loaded. We also are not allowed to modify configs (security reasons). It's regular VIM compiled without xterm clipboard support and also has mouse turned off (mouse= ). I CAN turn the mouse back on, but clipboard is a lost cause - and besides, insisting on mouse seems like it's missing the point.
+
+Now here's the kicker: my job involves a LOT of copy-paste. I have to keep my work terminal and VIM terminal separate (no tabs, splitting, or multiplexing) - again for ""security purposes"". Like I can go through a few hundred commands in a couple of hours. If I had clipboard this would be super duper easy but as is... I find myself constantly having to take my hand off keyboard to shift-highlight shift-ctrl-c then mouse to my term and shift-ctrl-v.
+
+I'm coming to terms with it but the added mental load of having to constantly shift gears from keyboard to k+m actually becomes draining after a while and I start making technical errors (dropping the wrong command in a term and having to start an hour of work all over again)
+
+Anyone have any advice? No quitting isn't an option for financial and legal reasons. Plus I like the job, I'm just frustrated with this randomly convoluted work method that management insists on. I've been working on it for a few months but I feel like I'm missing something here.",t3
+17blqes,52,0.88,112,52,384,72,2023-10-19T15:23:22Z,"I am a developer at one of the large cloud companies and a good chunk of my work is in Java. While I use Vim almost exclusively when I work in other languages (perl, ruby, python, bash) I find that Java development using a dedicated IDE is just a much better experience.
+
+Curious to see about others experiences; what other editors/IDEs do you play around with and when do you do it? ",t3
+17blgfl,0,0.33,0,0,790,118,2023-10-19T15:11:10Z,"Hi everybody.
+
+I'm having a problem with **ALE** and I think it is not enough to open an issue.  
+So I decided to ask here if anyone knows about it.
+
+On opening a **Deno** project it gives me errors related to Deno-specific code.
+
+PS: I'm using Vim, not NeoVIM.  
+My `:ALEInfo`:
+
+```
+ Current Filetype: typescript
+Available Linters: ['cspell', 'deno', 'eslint', 'standard', 'tslint', 'tsserver', 'typecheck', 'xo']
+  Enabled Linters: ['cspell', 'deno', 'eslint', 'standard', 'tslint', 'tsserver', 'typecheck', 'xo']
+  Ignored Linters: []
+ Suggested Fixers:
+  'deno' - Fix TypeScript using deno fmt.
+  'dprint' - Pluggable and configurable code formatting platform
+  'eslint' - Apply eslint --fix to a file.
+  'prettier' - Apply prettier to a file.
+...
+```
+
+I didn't manage to configure ALE.",t3
+17bgafa,5,0.86,25,5,350,58,2023-10-19T10:50:36Z,"I'm looking for basic building blocks to use vim for batch editing. Normal commands like ctrl-a are easy to remember and very convenient to use, they are however difficult to apply accept for on a per line basis since `:global` (e.g. `g/pattern/norm! ^A`) acts on lines. 
+
+But! Newlines are not that special. Can we achieve `:g` per word/token/thing?",t3
+17bg6k3,1,0.67,1,1,259,37,2023-10-19T10:43:38Z,"I have this in .vimrc
+
+&amp;#x200B;
+
+Plug 'tpope/vim-commentary'
+
+and
+
+`vnoremap &lt;C-/&gt; &lt;Plug&gt;Commentary`
+
+but I should press 2 times &lt; Ctrl + / &gt; to make comments / uncomments. 
+
+2times. :( 
+
+&amp;#x200B;
+
+What did I do wrong? 
+
+&amp;#x200B;",t3
+17aese9,13,0.94,11,13,1559,281,2023-10-18T01:37:31Z,"Prefacing this by saying I have no coding experience other than light VBA and, if I'm glued to a help page, basic HTML. I generally pick up technology stuff and learn new softwares pretty quickly.
+
+I have been researching different PKMS (personal knowledge management systems) to help me organize things both for my job and for my personal goals. The top contender for me is Vimwiki. The workflows I've seen on YouTube seem to be exactly what I'm looking for. One of my personal/career goals is to get into programming. I do operations management and I feel like it would be helpful to know how to engage with APIs or build scripts for reporting etc. 
+
+So the additional incentive to use VimWiki instead of like Logseq or Obsidian or something is that it would also train some coding muscles.
+
+My concern is I'm having a hard time even getting to install VimWiki into Vim. I ran through the tutorial and tried looking up some stuff within Vim in the manual but I still don't understand how to edit the options I'm seeing on Github so when I tried a couple of the ways to add the plugin it wasn't working.
+
+Can anyone guide me on the actual install for VimWiki? I'm not seeing anything on YouTube that doesn't just glaze over half of it.
+
+I feel like once I'm actually in VimWiki and maybe with some extra training wheel plugins I'll start getting comfortable and figuring stuff out on my own. The entry and setup is really throwing me for a loop right now though.
+
+&amp;#x200B;
+
+I am going to start CS50x this week as well. Any help is appreciated, thanks.  
+",t3
+179ptnp,8,1.0,10,8,663,128,2023-10-17T04:14:58Z,"I've always had a preferred `colorscheme` in vim that I always use on all my machines. Now there's a new server that I need to work on and I wanna have vim looking the same there too. Problem is, despite me setting the `colorscheme` the same as the other machines, the colors look very different.
+
+I've read a bit and I guess this is because my palette is different? The thing is that, I don't know how to figure out the exact palette I'm using on the machines, much less how to define the same palette on the new server.
+
+How can I do that?
+
+And more generally: what things do I need to put on my \`.vimrc\` to make sure that vim *always* looks exactly the same?",t3
+179htlu,1,0.67,7,1,412,67,2023-10-16T21:50:06Z,"My issue is simple, vim is completely stuck if I type ""/"" on an empty line.
+
+I can insert / in middle of text, at the end of a sentence, but not in a empty line. That's not so practical to code in go
+
+If anyone could hint something, here's my vimrc [https://pastebin.com/BLQHcyPw](https://pastebin.com/BLQHcyPw)
+
+&amp;#x200B;
+
+I've tried profiling, setting timeoutlen, could not find a workaround that works yet ",t3
+1799i4m,6,0.87,1,6,1821,278,2023-10-16T16:04:04Z,"Announcing [Imp](https://github.com/flwyd/vim-imp), a vim plugin to make it easy to add imports without breaking your flow.  It currently supports Java, Kotlin, ES6 (JavaScript/TypeScript), Python, PHP, and Bazel; support for several other languages is planned.  Imp is based on the assumption that the import you want probably exists elsewhere in your code base, so search around and suggest the most popular options for a symbol.  The modular and plugin-based approach enables developers to add other languages, integrate with a private code search system, or otherwise extend the functionality without writing a complete import management plugin.  The plugin uses some fancy regular expressions and does not require an LSP.
+
+Java programmers will be familiar with the problem this plugin solves.  You're writing some new code and declare a `List` variable, but it won't compile until you add an import statement to declare which `List` you mean.  Jumping to the top of the file, typing out a whole import statement, and moving back to the code you were writing is disruptive, and you might not remember the fully qualified name anyway.  So just type `:ImpSuggest List` and Imp will present some options:
+
+```
+import java.util.List;
+import java.awt.List;
+import com.lowagie.text.List;
+import com.example.api.MyService.Method.List;
+```
+
+The list will be sorted by the frequency it occurs in your code base (which could be ""the whole repo"", ""the same directory"", ""open buffers"", or some other set of files), and if it's the first time you've imported that symbol it will prompt you for a statement.  If there's only one option it'll insert it right away, or you can use `:ImpFirst` to insert the most popular match automatically.  There's lots more documentation at https://github.com/flwyd/vim-imp and `:help imp-intro`.",t3
+1795juu,3,0.8,14,3,126,22,2023-10-16T13:06:36Z,is there a script that does something like this? i accidentally closed many buffers thinking i had opened a single one. thanks,t3
+178zp1u,4,1.0,6,4,157,28,2023-10-16T06:39:14Z,"I remember finding a light Vim color scheme that used only shades of black, white and red.
+
+Did someone publish something like that online? Did I imagine it?",t3
+178xx2s,195,0.85,89,195,958,169,2023-10-16T04:37:59Z,"All of these mods/plugins are fine. I use a few plugins for work too. But reading some of the posts here, it seems like some people don’t really know how to take full advantage of vim. Don’t just blindly add plugins because they look nice. Learn how buffers work. Learn about netrw. I’m not saying don’t use cool plugins, but once you understand how you can take advantage of these built-in tools, you can then decide whether you really need those extra third party plugins. I keep seeing people just blindly copying dot files and adding stuff they don’t necessarily want/need then complaining about weird behavior. Just take the time to understand how vim works whether it’s through docs or videos or online guides. I’m sorry if this is coming across as a rant, but I truly think a good chunk of you guys, whether you’re an enthusiast or a professional, would benefit from actually taking the time to learn how some of the already provided tools work first.",t3
+178xe15,2,0.67,3,2,556,97,2023-10-16T04:04:59Z,"How does that work for you?
+
+Currently using Logitech MX Keyboard, but am thinking of switching to a mechanical one, cause extensive typing cause my fingers to feel uncomfortable. Like hitting something hard for long periods.
+
+So have been toying with the idea of split keyboard but the high ends ones like Moonlander will be too big an investment to make without trying.
+
+So keychron has this alice layout - looking at the full q13 pro with numpad - that's split but has this weird layout. It's more affordable. Just wondering how vim users feel about it.",t3
+178esx8,6,1.0,2,6,445,48,2023-10-15T12:56:50Z,"I've just watched [this video](https://youtu.be/13gNtgqzzmM?feature=shared&amp;t=181) by DistroTube, and when he entered di and paused for a second, a menu popped up suggesting some appropriate motions to give to this command/verb (see screenshot below). How can I get this menu? Is it a plugin? Thanks for any help!
+
+https://preview.redd.it/1dx1qr6e5dub1.png?width=959&amp;format=png&amp;auto=webp&amp;s=32a38d081b6667fe3a425f3f87d8a821816d434f",t3
+178du8y,4,0.75,10,4,603,106,2023-10-15T11:57:44Z,"i love vim i love it soo much thanks to this subreddit it has been easy ride for me 
+
+i wanted to use ianding/leetcode.vim plugin but couldn't do so as it required browser-cookie3 plugin to install for python script to run 
+
+and it isn't getting installed using pip3 instal browser\_cookie3 --user it shows  
+externally managed environment and suggests me to use virtual environment i'm okay with whatever way i don't want to break my system but it's fine until the plugin runs
+
+please help me in this using vim would make my submission for leetcode more fun and easy  as i hate their website to code  
+",t3
+178cp5w,0,0.46,9,0,375,69,2023-10-15T10:40:03Z,"when i was using vim i didn't get a delay after pressing x
+
+&amp;#x200B;
+
+the nvim is like waiting for another key press to accept it as command
+
+is there a way to check the keychord which starts with keypress of x
+
+which files are initialized in nvim
+
+nvim -u NONE makes it run smooth with instant x keypress results in deleting the current character where my pointer's on  ",t3
+177swzv,75,0.95,29,75,530,103,2023-10-14T16:09:26Z,"I've been using vim for about 3 years now. However, I feel like I haven't drilled the efficiency into my habits yet. Most of what I do in normal mode is 
+
+- simple things like `dd`, `yy`
+- search and replace
+- `$` and `_`
+- `j` and `k`
+- doing a task 5 times until finally making a macro
+
+In particular, I'm horrible at relative line numbers, horizontal movements, and a couple vertical movements like `%` and marks. 
+
+I wanna feel like a fast and competent vim thinker but I'm just not. Is there any way I can undo my bad habits?",t3
+177sri8,0,0.4,8,0,511,85,2023-10-14T16:02:03Z,"In Fish shell, you get autosuggestions as you type. As you type commands, you will see a suggestion offered after the cursor, in a muted gray color.   
+https://fishshell.com/docs/current/interactive.html#autosuggestions   
+
+I want that, but for Vim or NeoVim.   
+Features:   
+- It shows me only one suggestion. I don't want 5 nor 6 sugesstions, I only want one.    
+- I do not need to press Tab or any key to see the suggestions. It's automatic, without the user having to press any key.     
+How can I do that?",t3
+177rfqt,0,0.5,3,0,136,27,2023-10-14T14:58:57Z,Is there something for windows 10 like vimium for chrome i know i can use ahk but i don't know. Can someone guide through the ahk guide ,t3
+17790gk,8,0.62,16,8,223,42,2023-10-13T21:18:58Z,"Everyone knows the meme where people can't exit Vim, but I have an issue  with copying to the clipboard. HOW DO I DO IT, GOD DAMN IT!!! I've watched several videos, asked in the comments, and I still can't make  it happen..",t3
+177634h,11,0.87,24,11,272,54,2023-10-13T19:03:31Z,"I tried using the built-in termdebug plugin in vim but I do not like having gdb running in the vim terminal. Is there a plugin or some other way to run gdb in a seperate terminal window manually and somehow connect vim to it, so I can focus a line where breakpoint is hit?",t3
+1774etn,12,0.94,8,12,0,0,2023-10-13T17:48:17Z,,t3
+176vvmk,2,1.0,0,2,1319,209,2023-10-13T10:45:29Z,"I keep a text file (/root/Changelog) where I make notes about any system changes.  It looks like this:
+
+    2023-10-13 13:11 +0300: mg
+      # upgrading to Ubuntu 23.10
+      # - link to release notes: ...
+      do-release-upgrade -d
+        # - it did this
+        # - it did that
+        # - this thing broke and you can read more about
+        #   it at https://example.com/etc
+      add-apt-repository -y ppa:...
+      apt autoremove
+      reboot
+
+As you can see it has plenty of unordered lists inside comments.
+I have some settings to make formatting these easier:
+
+    set fo+=jrl fo-=t et sw=2 com=b:#,fb:-
+    let &amp;flp='^\s*\d\+[\]:.)}\t ]\s*'  "" default value
+    let &amp;flp.='\|^\s*[-*]\s'           "" also recognize bulleted lists
+    "" TBH I'm not sure &amp;flp changes do anything at all...
+
+This works very nicely in that I can gq&lt;motion&gt; to reflow the text and it maintains the lists and their indentation properly.
+
+One thing that doesn't work as well is the following.  When I have
+
+    # - some text&lt;cursor&gt;
+
+and I press Enter, I would like to see
+
+    # - some text
+    #   &lt;cursor&gt;
+
+but what I get instead is
+
+    # - some text
+    # &lt;cursor&gt;
+
+(This is, in fact, how Vim behaves if I have unordered lists outside comments.)
+
+Any ideas how to ask Vim to do what I want?",t3
+176ov0m,29,0.91,6,29,0,0,2023-10-13T03:00:01Z,,t3
+176aee9,12,0.93,13,12,186,36,2023-10-12T16:00:11Z,"Sometimes, when I mean to type the command ""gg=G"", I type gg=, and my code all indents before I even need to press G. Does anyone know why this might be the case?
+
+Just curious.
+
+Thanks.",t3
+1760vdt,0,0.29,2,0,0,0,2023-10-12T07:12:58Z,,t3
+1760eud,2,1.0,5,2,1702,230,2023-10-12T06:42:42Z,"Currently, my `.clang-format` file at the root of the project is like so:
+
+    Standard: Cpp11
+    BasedOnStyle: LLVM
+    IndentWidth: 4
+    TabWidth: 4
+    UseTab: ""Always""
+    ColumnLimit: 0
+    AccessModifierOffset: -4
+    NamespaceIndentation: All
+    BreakBeforeBraces: Attach
+
+Within `.vimrc`, I have
+
+`autocmd FileType c,cpp,h,hpp setlocal equalprg=clang-format` in the hope that `gg=G` will format my current buffer based on my `.clang-format` file.
+
+My current buffer is currently like so (`main.cpp`) and remains unchanged after `gg=G` indicating that it is consistent with the format file.:
+
+	#include &lt;iostream&gt;
+	#include &lt;stdio.h&gt;
+
+	int main(){
+		printf(""Hello world\n"");
+		getchar();
+	}
+
+This, unfortunately, does not allow usage of vim shortcuts `[[` and `]]` to navigate to beginning of current and next function respectively. That seems to need the file to be formatted like so:
+
+	#include &lt;iostream&gt;
+	#include &lt;stdio.h&gt;
+
+	int main()
+    {
+		printf(""Hello world\n"");
+		getchar();
+	}
+
+Where the opening `{` and closing `}` of the function are on separate lines.
+
+Note, within a function, I would still like to have `for/while` loops or `if` conditions, like so:
+
+    for(int i = 1; i &lt; 10;i++){
+
+instead of 
+
+    while(a &lt; b)
+    {
+
+What changes are needed in the `.clang-format` file to accomplish this automatically whenever I run `gg=G`? Are there any other formats that are useful for other Vim functionalities?
+
+----
+
+E: Just found out it works with `BrakeBeforeBraces: Linux`. Documentation [here](https://clang.llvm.org/docs/ClangFormatStyleOptions.html).
+If there are other useful formats that make applying Vim shortcuts easier, please do comment.",t3
+1760dv1,55,0.97,15,55,0,0,2023-10-12T06:40:51Z,,t3
+175g42x,1,1.0,2,1,233,41,2023-10-11T15:01:32Z,"In diffsplit mode, \`do\` works fine on individual lines, but if I visually select lines, pressing \`d\` deletes the lines (as I'd expect). How can I apply the diff instead?
+
+I've verified I have no mappings for \`d\` in visual mode.",t3
+175esoj,115,0.99,28,115,0,0,2023-10-11T14:04:29Z,,t3
+174grmc,9,0.8,15,9,314,34,2023-10-10T09:18:32Z,"I use Vim for editor but I do not know what happen when I copy from web page or another editor and paste to vim, lines mismatch
+
+&amp;#x200B;
+
+&amp;#x200B;
+
+[lines has not set problem](https://preview.redd.it/kq6dm8ljectb1.png?width=1193&amp;format=png&amp;auto=webp&amp;s=a6f53c709b56e5f62370f4791dc7cce7c0b8c35b)",t3
+174fzw1,5,0.86,22,5,1236,180,2023-10-10T08:22:13Z,"Usually we replace a pattern with either a fixed string or a variation of the match. Now imagine you have a list of values that you want to use as replacements. How would you do it?
+
+    Apple
+    Orange
+    Grapefruit
+    Mandarin
+    Pineapple
+    
+    pattern: \&lt;v\w\+
+    text:
+    
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tristique viverra tortor vitae mattis. In hac habitasse platea dictumst. Morbi risus libero, ornare consectetur faucibus sed, facilisis vel nisi. Cras sit amet lectus luctus, pretium ipsum at, blandit erat. Sed tincidunt eget diam non vulputate. Vestibulum sodales mauris velit. Ut dignissim urna in est malesuada dignissim. Phasellus convallis condimentum purus nec egestas. Etiam ac libero sit amet turpis varius rutrum. Nulla ipsum enim, bibendum a lectus vitae, elementum commodo massa. Praesent faucibus, purus vitae maximus malesuada, erat mauris blandit tortor, condimentum ullamcorper mi odio sed libero. Vivamus blandit libero dolor, sit amet malesuada lacus iaculis sit amet. Aliquam pellentesque gravida metus id mattis. Maecenas vitae ligula aliquet, dictum ipsum ornare, molestie ex. In a sem turpis. Curabitur arcu elit, volutpat ut venenatis quis, imperdiet eu metus.",t3
+173qr27,12,0.92,29,12,571,96,2023-10-09T12:37:52Z,"Ubuntu 20.04 by default comes with Version 8.1. I am able to confirm this using `vim --version`. I wanted to try out Github Copilot and it seems to need Vim 9+.
+
+So, as suggested over at https://www.vim.org/download.php, I built from source. I downloaded `vim-9.0.tar.bz2`, navigated to `src` folder and ran `make`. This completes without any error. However, vim does not seem to have upgraded. Typing `vim` still only opens the older version.
+
+Is there an easy way to upgrade to the latest version? Should I be deleting the older version and then run the above commands?",t3
+173n51z,1,0.67,2,1,328,53,2023-10-09T08:58:24Z,"Hello all,
+
+I have been experimenting with coc-explorer to replace NERDTree. It mostly works fine, but I've stumbled upon a problem. After I open coc-explorer, I no longer get coc's online diagnostics. I have experimented with both echo and float diagnostics, but the problem remains. Any ide what might be hapening?
+
+Thank you.",t3
+173lib0,0,0.33,7,0,407,86,2023-10-09T07:03:08Z,"The question as the title, I know I can use g-d to go to the definition but then sometimes I need to check it side by side and I want to have a key binding to go to the definition and open a new tab on the side. My current solution right now is to use the mouse while holding the key \`option+command\` and click the method name to open it on the side. Like any other Vim user we don't like to use the mouse",t3
+172fvqi,7,0.89,8,7,489,88,2023-10-07T20:22:08Z,"More frequently I'd like to enumerate lists in a file.  For example.
+
+    Thing has red hair.
+    Thing has blue hair.
+    Thing has green hair.
+
+I'd like to use a regex to insert a sequential number between ""Thing"" and ""has"" on each line.
+
+something like.
+
+    %s/\(Thing \)\(has\)/\1\# \2/
+
+to get :
+
+    Thing 1 has red hair.
+    Thing 2 has blue hair.
+    Thing 3 has green hair.
+
+Of course I just made up the \# as an example.  
+
+Is there such a feature or some way to easily fake it?",t3
+172bsyo,23,0.88,51,23,936,174,2023-10-07T17:28:18Z,"I want to switch from Windows to Linux and start typing my math notes using Vim + Vimtex. I'm not sure if I will ever start coding thus I ask: is it too much of a commitment to go down this path? Can I learn Vim (and Linux) in 3 months to the point where it's faster than everything else?
+
+**1 month update:** started using Neovim, I don't know even 1% of it. Curently reading the official Bram Moolenar's (RIP) Vim guide 15 minutes a day. Wrote a bubble sort function in C, very nice. Though no LaTeX+VimTex (plugins are too daunting yet). For the Linux I go through NDG linux essentials (I currently only know how to move files around)
+
+**2 month update (sorry for getting off-topic):** I understood that my primary problem is not being able to use GNU/Linux properly and now my full focus is on learning it and only after that Vim/Nvim. Completed half of the NDG's 100 hours course. Can now fully replace GUI file manager with CLI :)",t3
+172agcg,131,0.89,43,131,0,0,2023-10-07T16:31:22Z,,t3
+17226po,1,0.67,5,1,636,116,2023-10-07T09:28:22Z,"Something really strange is happening with my fresh install of vim. When i do not have .vimrc file in my home folder everything works fine, but when I introduce .vimrc file, even if it is completely empty I cant use commands like ""ayy,  ""+yy etc. As soon as i type \`""\` character nothing happens. Also if I am in command mode i need to press escape twice to get to normal mode. I also tried removing .vimrc and using as source of vim file with different name (something like .vimrc\_foo) and then everything works fine. I really don't know where to look to resolve this problem. I suppose it has something to do with conflicting files.",t3
+171hxag,6,1.0,2,6,237,32,2023-10-06T17:10:28Z,"Hi vimExperts  
+ Is there a way for [fzf](https://github.com/junegunn/fzf.vim) to use custom filelist to open files 
+
+    ~/files
+
+instead of opening/searching files in the whole tree or directories.  
+
+
+I am on linux.
+
+&amp;#x200B;
+
+TIA",t3
+170y9is,6,1.0,8,6,595,122,2023-10-06T00:28:49Z,"Hello. 
+I use vim/neovim as my main editor for a few years now. I love it.
+But what I can't get over is that as soon as you press colon (:) you kind of fall out of vim, as in you can't paste whatever you yanked with p, you can't move with hjkl, you don't have modes. 
+I understand that you can circumvent all of that, which I do, like copying to the + buffer, so i can paste with ctrl+shift+v and using arrows to navigate inside the line, but it seems kinda jarring every time.
+What i wanna know is am I the only one who is annoyed by this or is there a workaround that I am missing or something",t3
+170wbpc,4,0.75,5,4,790,113,2023-10-05T23:03:17Z,"I was taking notes about some basic trigonometry in Vim, when i noticed that display math broke the rest of the markdown syntax. I would like to know if this is a common bug and if there is a quick way to fix this
+
+Also, I'm using $$ $$ because i'm converting every markdown note in to a PDF using pandoc, if anyone knows a alternative to it that works with inline math too (that is, $ $) i'm gladly checking it
+
+Thanks in advance :D
+
+Edit: forgot to emphasize that I don't think this is my colorscheme's fault (gruvbox-material), as I also tested with [https://github.com/dikiaap/minimalist](https://github.com/dikiaap/minimalist) and it had the same behavior
+
+https://preview.redd.it/r2upuqiksgsb1.png?width=1211&amp;format=png&amp;auto=webp&amp;s=dbd5ca18313a8d06fab892da30a01d5a6d50acae",t3
+170s1g3,111,0.88,23,111,0,0,2023-10-05T20:13:27Z,,t3
+170citf,7,0.9,12,7,426,86,2023-10-05T08:23:03Z,"My cursor does not remember the position when I use j and k to move between lines. For example when I am at the end of a long line, and go to the next line which is shorter, I end up at the end of the shorter line as expected, but when going back to that previous line I am on the height of the shorter line, not where I was before. Did some research and saw some solutions with virtualedit=all, but that comes with downsides.",t3
+1702jd2,2,0.63,10,2,466,69,2023-10-04T23:40:19Z,"I wanted to know which of these scripting languages is more performant for vim.
+
+I checked some similar previous questions in this subreddit which suggested more towards lua.
+
+Then I came across this [PR on vim-lsp](https://github.com/prabirshrestha/vim-lsp/pull/1433#issue-1564496165)
+
+The tests there shows that vim9script is faster than lua.
+
+Is there no definite answer or is it the ""it depends"" kinda answer? 
+If it's the latter, which one is faster more often?",t3
+17025i9,1,0.67,2,1,581,66,2023-10-04T23:23:53Z,"I'm using lunarvim and I want to see definitions of methods and classes in external or default libraries, in java or c#, etc. Here is how it looks in intellij, if I press Ctrl + LMB on String.format() in java
+
+https://preview.redd.it/q3e2o9jtr9sb1.png?width=271&amp;format=png&amp;auto=webp&amp;s=9dc9613a44aec740be9f9400ce571ad17d0497c4
+
+https://preview.redd.it/px4gt58vr9sb1.png?width=642&amp;format=png&amp;auto=webp&amp;s=1f39ca25de2db2e4830923d0f1f547d1beeae3df
+
+If I press gd on the method, it doesn't do anything. Is there some kind of plugin or a built in keybind for that?",t3
+1701l33,30,0.92,3,30,0,0,2023-10-04T23:00:27Z,,t3
+16zzgyt,0,0.29,0,0,0,0,2023-10-04T21:38:19Z,,t3
