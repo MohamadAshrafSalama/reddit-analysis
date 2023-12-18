@@ -9,6 +9,7 @@ This project fetches data from Reddit using the Reddit API, performs analysis, a
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
+- [comments](#comments)
 
 ## Installation
 
@@ -59,3 +60,6 @@ This project fetches data from Reddit using the Reddit API, performs analysis, a
 ## Contributing
 
 If you'd like to contribute to the project, feel free to fork the repository and submit a pull request.
+## comments
+The test file contains all my experiments. The "reddit2.0" file holds the final code used to extract data and apply data analytics.
+Everything is then consolidated into a script along with its requirements and secret keys.
